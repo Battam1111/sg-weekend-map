@@ -1,0 +1,4948 @@
+{
+ "meta": {
+  "title": "新加坡周末出门地图",
+  "data_date": "2026-10-11",
+  "home": {
+   "name": "起点 · Tanjong Pagar 站",
+   "lat": 1.276663,
+   "lng": 103.846555,
+   "station": "东西线 Tanjong Pagar 站（EW15）B 出口（坐标取自 OneMap，与 OpenStreetMap 一致）；汤申东海岸线 Shenton Way 站（TE19）也在附近"
+  },
+  "fx": {
+   "rates": {
+    "MYR": 3.19,
+    "THB": 26.21,
+    "IDR": 13960,
+    "VND": 20191
+   },
+   "source": "https://open.er-api.com/v6/latest/SGD",
+   "note": "汇率为 2026-10-11 从 open.er-api.com 读到的参考价，仅供估算，换钱以当天牌价为准"
+  },
+  "fare_note": "时间和车费都按从 Tanjong Pagar 站出发估算：分钟数和车费是按地铁线路与距离估算的，成人卡费（Visa/Mastercard 感应卡或交通卡），实际以 SimplyGo 或 MyTransport 为准",
+  "disclaimer": "价格与规则会变，出门前以官网为准",
+  "return_sg_common": {
+   "title": "回新加坡统一说明（写给持新加坡长期准证的人，含工作准证与 Work Holiday Pass；所有境外条目通用，2026-10-11 读官方原文）",
+   "points": [
+    "SG Arrival Card 谁要填（ICA 原文）：所有旅客到达前 3 天内（含到达当天）免费提交 SG Arrival Card 和健康申报。豁免名单里有经兀兰（Woodlands）、大士（Tuas）陆路关口入境的居民 \"Residents (Singapore citizens, Permanent Residents, Long-Term Pass holders*)\"，脚注 \"*Long-Term Pass holders include holders of Student's Pass, Dependant's Pass, Long-Term Visit Pass and Work Pass\"。坐飞机、渡轮回来的居民也要填，选 \"Singapore citizens, Permanent Residents & Long-Term Pass Holders\" 这一项。",
+    "持工作假期准证（Work Holiday Pass，WHP）的算不算在豁免里：ICA 原文没有点名 Work Holiday Pass。WHP 列在 MOM 网站的工作准证（Work passes）栏目下，MOM 的 WHP 要点页把相关条款叫 Conditions of Work Pass，所以按 Work Pass 持有人算是推论，ICA 没有明写（未核实）。稳妥做法：陆路回来拿不准就也填一份，官网免费，多填不会出错。",
+    "回来要带什么（MOM 原文）：WHP 问答 \"Yes. You can travel in and out of Singapore with your Work Holiday Pass card. If you need to travel in and out of Singapore while waiting for your Work Holiday Pass card, you can use the notification letter to travel instead.\"；MOM 通用问答 \"Pass holders can travel in and out of Singapore using their digital work pass in their SGWorkPass app or their valid notification letter.\"。所以带护照原件，加上实体准证卡；卡还没拿到时，用 SGWorkPass 应用里的电子准证或仍有效的通知信。通知信在信上写的有效期内可以代替准证卡出入境，出门前看一眼信上的日期，回程那天也要还在有效期内。",
+    "能不能走自动通道（ICA 原文）：自动通道免费，6 岁以上可用，护照要符合 ICAO 标准且有效期至少 6 个月。工作准证持有人一栏写的是 \"Holders of a work pass (Work Permit, S Pass, Employment Pass or Dependant's Pass)\"，要在 MOM 登记过生物特征，括号里没有 WHP；但同页另写 \"All travellers are eligible for automated clearance\"，\"All foreign visitors, regardless of nationality, arriving in Singapore at the passenger halls can use the automated lanes, without the need for prior enrolments\"。所以在旅客大厅走自动通道应当可以，WHP 是否按准证持有人身份过关官网没写（未核实）。",
+    "陆路坐车回（ICA 原文）：兀兰、大士关口可以用 MyICA 应用里的二维码代替出示护照办出入境，首次入境新加坡的外国人除外；护照还是要随身带。",
+    "准证到期日前出入境不受影响的依据：到期日以你自己的通知信或准证卡上写的为准。MOM 上面那句「可以凭 WHP 卡出入境」没有限定日期，按它推论准证有效期内出入境都可以；MOM 和 ICA 都没有一句原文直接写「到期日前出入境不受影响」（未核实）。另外各国一般要求护照入境时还有 6 个月以上有效期，护照快到期的要先换。"
+   ],
+   "sources": [
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ]
+  },
+  "entry_quotes": [
+   {
+    "topic": "回新加坡",
+    "rule": "SG Arrival Card 提交时间",
+    "quote": "所有旅客到达前 3 天内（含到达当天）免费提交 SGAC 与健康申报",
+    "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card"
+   },
+   {
+    "topic": "回新加坡",
+    "rule": "陆路豁免",
+    "quote": "Residents (Singapore citizens, Permanent Residents, Long-Term Pass holders*) ... *Long-Term Pass holders include holders of Student's Pass, Dependant's Pass, Long-Term Visit Pass and Work Pass（经 Woodlands、Tuas 入境）",
+    "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card"
+   },
+   {
+    "topic": "回新加坡",
+    "rule": "WHP 出入境凭证",
+    "quote": "Yes. You can travel in and out of Singapore with your Work Holiday Pass card. If you need to travel in and out of Singapore while waiting for your Work Holiday Pass card, you can use the notification letter to travel instead.",
+    "url": "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme"
+   },
+   {
+    "topic": "回新加坡",
+    "rule": "电子准证",
+    "quote": "Pass holders can travel in and out of Singapore using their digital work pass in their SGWorkPass app or their valid notification letter.",
+    "url": "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card"
+   },
+   {
+    "topic": "回新加坡",
+    "rule": "WHP 属于工作准证类（推论依据）",
+    "quote": "WHP 列在 MOM Work passes 栏目下，要点页的条款名为 Conditions of Work Pass",
+    "url": "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   },
+   {
+    "topic": "回新加坡",
+    "rule": "自动通道",
+    "quote": "Holders of a work pass (Work Permit, S Pass, Employment Pass or Dependant's Pass) ... enrolled with Ministry of Manpower (MOM)；All travellers are eligible for automated clearance；ICAO-compliant passport that is valid for at least six months",
+    "url": "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes"
+   },
+   {
+    "topic": "回新加坡",
+    "rule": "陆路二维码",
+    "quote": "兀兰、大士关口可用 MyICA 二维码代替出示护照，首次入境的外国人除外",
+    "url": "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/"
+   },
+   {
+    "topic": "马来西亚",
+    "rule": "免签",
+    "quote": "maximum duration of each visit shall not exceed 30 days; cumulative ... not exceed 90 days within any 180 days（2025-07-17 起，2025-08-11 发布）",
+    "url": "https://www.kln.gov.my/web/chn_beijing/requirement_foreigner"
+   },
+   {
+    "topic": "马来西亚",
+    "rule": "MDAC 时间（使馆）",
+    "quote": "at least three (3) days before the arrival date",
+    "url": "https://my.china-embassy.gov.cn/eng/fwzc/lsyw/qz/202507/t20250714_11670217.htm"
+   },
+   {
+    "topic": "马来西亚",
+    "rule": "MDAC 时间（移民局图示）",
+    "quote": "Complete and submit MDAC within 3 days before arrival",
+    "url": "https://imigresen-online.imi.gov.my/mdac/main"
+   },
+   {
+    "topic": "马来西亚",
+    "rule": "MDAC 豁免",
+    "quote": "CITIZENS OF SINGAPORE; DIPLOMATIC AND OFFICIAL PASSPORT HOLDERS; MALAYSIA PERMANENT RESIDENTS AND LONG-TERM PASS HOLDERS; GCI BRUNEI; BRUNEI MALAYSIA FREQUENT TRAVELER FACILITY; THAILAND BORDER PASS; INDONESIA PLB",
+    "url": "https://imigresen-online.imi.gov.my/mdac/main"
+   },
+   {
+    "topic": "马来西亚",
+    "rule": "RTS Link",
+    "quote": "passenger service... is now expected to commence in February 2027（LTA 2026-10-02 新闻稿）",
+    "url": "https://www.lta.gov.sg/content/ltagov/en/newsroom/2026/10/news-releases/grantors-informed-rts-link-service-targeted-feb-2027.html"
+   },
+   {
+    "topic": "印尼",
+    "rule": "B1 电子落地签",
+    "quote": "Stay Up to 30 days (extendable for another 30 days) Cost Rp500.000（选 CHINA、Tourism）",
+    "url": "https://evisa.imigrasi.go.id"
+   },
+   {
+    "topic": "印尼",
+    "rule": "F1 廖内群岛海港落地签",
+    "quote": "Visa F1 dengan Izin Tinggal 7 hari hanya diberikan di Tempat Pemeriksaan Imigrasi Laut di Wilayah Kepulauan Riau (Batam, Tanjung Pinang, Tanjung Uban, dan Tanjung Balai Karimun)；Biaya visa F1 Rp250.000",
+    "url": "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/F1"
+   },
+   {
+    "topic": "印尼",
+    "rule": "新加坡 PR 免签",
+    "quote": "新加坡永久居民经巴淡、民丹、卡里摩入境免签，最长 4 天（2024-10-08 新闻稿）",
+    "url": "https://imigrasi.go.id/siaran_pers/2024/10/08/silmy-karim-tarik-wisatawan-asing-imigrasi-berikan-bebas-visa-kunjungan-ke-batam-bintan-dan-karimun-bagi-pemegang-pr-singapur"
+   },
+   {
+    "topic": "印尼",
+    "rule": "All Indonesia",
+    "quote": "2025-10-01 起所有机场与海港强制；dapat diisi sejak tiga hari sebelum kedatangan",
+    "url": "https://www.imigrasi.go.id/siaran_pers/mulai-1-oktober-deklarasi-kedatangan-penumpang-wajib-dilakukan-di-aplikasi-all-indonesia"
+   },
+   {
+    "topic": "泰国",
+    "rule": "免签",
+    "quote": "2026-09-15 起取消 60 天免签；中国普通护照按双边协定免签，单次停留期最长不超过30天",
+    "url": "https://thaiembbeij.org/th/news/updateofvisaexemption/"
+   },
+   {
+    "topic": "泰国",
+    "rule": "协定注意事项",
+    "quote": "2024-03-01 生效；单次不超过 30 天，每 180 天累计不超过 90 天",
+    "url": "https://thaiembbeij.org/th/news/thailandchinafreevisa/"
+   },
+   {
+    "topic": "泰国",
+    "rule": "TDAC",
+    "quote": "within 3 days in advance of arriving in Thailand (including the date of arrival)",
+    "url": "https://tdac.immigration.go.th/manual/en/faq.html"
+   },
+   {
+    "topic": "越南",
+    "rule": "电子签证",
+    "quote": "Vietnam e-Visa is valid for maximum of 90 days, single or multiple entry；E-visa fee: Visa is valid once 25 USD / Visa is valid multiple times 50 USD",
+    "url": "https://evisa.gov.vn"
+   },
+   {
+    "topic": "渡轮",
+    "rule": "Desaru Ferries",
+    "quote": "Tanah Merah 到 Desaru Coast 往返 SGD 108、单程 SGD 70；燃油附加费去程 SGD 12，回程 RM40 或 SGD 12（2026-03-12 起）",
+    "url": "https://desaruferries.com/ferry-service/"
+   },
+   {
+    "topic": "渡轮",
+    "rule": "Bintan Resort Ferries",
+    "quote": "经济舱成人单程 62，往返平日 100、高峰 110、平日加高峰 105；Fares are in Singapore dollars (SGD) and include applicable levies and fees",
+    "url": "https://www.brf.com.sg/ticket-fares/"
+   },
+   {
+    "topic": "渡轮",
+    "rule": "Majestic Fast Ferry",
+    "quote": "2026-03-12 起燃油附加费：新加坡出发每程 SGD 6，印尼出发 IDR 65,000；2026-07-15 起售票柜台搬到 5 HarbourFront Avenue #01-08, Singapore Cruise Centre HarbourFront",
+    "url": "https://www.majesticfastferry.com.sg"
+   }
+  ],
+  "check_note": "每条的「核实情况」写明信息来自官网直接读取、官方来源摘录，还是第三方汇总；读不到的写「未核实」"
+ },
+ "items": [
+  {
+   "id": "a_treetop",
+   "name_zh": "麦里芝树顶吊桥",
+   "name_en": "MacRitchie TreeTop Walk",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.35749,
+   "lng": 103.808926,
+   "area": "中部集水区",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线到 Caldecott 站（TE9），步行约 20 分钟到 Venus Drive 入口，再沿步道走约 2.5 km 到吊桥",
+    "minutes": 60,
+    "cost_sgd": "约 S$1.99（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "周二至周五 9:00 至 17:00；周六日与公众假期 8:30 至 17:00；周一休息（公众假期除外）；最后入场 16:45",
+   "duration": "4 至 5 小时（含徒步）",
+   "best_time": "开门就到，避开中午暴晒；雨后路滑别去",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "防滑运动鞋",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "出门前看 NEA 的 PSI 空气指数（2026 年 10 月有烟霾）"
+   ],
+   "tips": "吊桥单向通行，人多时要排队；猴子会抢塑料袋，零食收好；全程没有小卖部，水要带够",
+   "food_nearby": [
+    "Adam Road Food Centre 的 Selera Rasa 椰浆饭（打车约 10 分钟）"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/central-catchment-nature-reserve"
+   ],
+   "check": "官方来源（NParks，经搜索摘录）",
+   "geo_source": "OneMap：TREETOP WALK",
+   "budget": "免费"
+  },
+  {
+   "id": "a_southern_ridges",
+   "name_zh": "南部山脊步道与亨德森波浪桥",
+   "name_en": "Southern Ridges and Henderson Waves",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.276027,
+   "lng": 103.8155,
+   "area": "Telok Blangah",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 HarbourFront 站（NE1），从 Marang Trail 上山到 Faber Point，再走到 Henderson Waves",
+    "minutes": 30,
+    "cost_sgd": "约 S$1.42（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "全天开放（24 小时）",
+   "duration": "3 至 4 小时（全程约 10 km 可分段走）",
+   "best_time": "早上 7 点到 10 点或傍晚 5 点后，桥上看日落",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "防滑运动鞋",
+    "驱蚊液（有登革热风险）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）"
+   ],
+   "tips": "Mount Faber 到 Henderson Waves 一段有树荫；想少走路可从 Labrador Park 站反方向走；晚上桥上有灯光",
+   "food_nearby": [
+    "ABC Brickworks Food Centre（下山后打车约 5 分钟）",
+    "HarbourFront 的 VivoCity 商场美食街"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/mount-faber-park",
+    "https://www.nparks.gov.sg/visit/parks/park-detail/telok-blangah-hill-park"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：HENDERSON WAVES",
+   "budget": "免费"
+  },
+  {
+   "id": "a_labrador",
+   "name_zh": "拉柏多自然保护区",
+   "name_en": "Labrador Nature Reserve",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.266612,
+   "lng": 103.80254,
+   "area": "Pasir Panjang",
+   "from_home": {
+    "route": "Shenton Way 站或 Tanjong Pagar 站坐地铁到 HarbourFront，换环线到 Labrador Park 站（CC27），步行约 10 分钟",
+    "minutes": 30,
+    "cost_sgd": "约 S$1.63（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "全天开放（24 小时）",
+   "duration": "1.5 至 2 小时",
+   "best_time": "傍晚看海边日落，可接着走南部山脊",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "防滑运动鞋"
+   ],
+   "tips": "园内有二战炮台遗迹和海边木栈道；海边不能下水游泳",
+   "food_nearby": [
+    "ABC Brickworks Food Centre（打车约 8 分钟）"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/labrador-nature-reserve"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：LABRADOR NATURE RESERVE",
+   "budget": "免费"
+  },
+  {
+   "id": "a_ubin",
+   "name_zh": "乌敏岛骑车",
+   "name_en": "Pulau Ubin",
+   "category": "景点",
+   "subcategory": "离岛与海滩",
+   "lat": 1.412509,
+   "lng": 103.975918,
+   "area": "东北离岛",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Tanah Merah 站换车，再坐巴士 2 路到 Changi Village，走到樟宜尾渡轮码头坐小船（约 10 至 15 分钟）",
+    "minutes": 75,
+    "cost_sgd": "地铁巴士约 S$2.2 加小船 S$4（现金）"
+   },
+   "cost": "上岛免费；小船单程 S$4，带自行车加 S$2（只收现金）；岛上租自行车约 S$5 至 15 一天",
+   "price_as_of": "2026-10-11",
+   "hours": "小船约 6:00 至 19:00，凑满 12 人开船；Chek Jawa 湿地约 9:00 至 17:00（未核实）",
+   "duration": "大半天到一整天",
+   "best_time": "早上 8 点前到码头，人少凉快；周末下午回程排队长",
+   "prep": [
+    "少量新币现金（有的摊位或船只收现金）",
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "防滑运动鞋",
+    "骑车可带头盔（租车点一般也有）"
+   ],
+   "tips": "岛上没有提款机，一定带现金；Chek Jawa 木栈道值得骑过去看；天黑前回码头",
+   "food_nearby": [
+    "岛上码头边的海鲜小店（现金）",
+    "Changi Village Hawker Centre 的椰浆饭"
+   ],
+   "tags": [
+    "免费",
+    "一整天"
+   ],
+   "sources": [
+    "https://pulau-ubin.nparks.gov.sg/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：PULAU UBIN",
+   "budget": "免费"
+  },
+  {
+   "id": "a_sungei_buloh",
+   "name_zh": "双溪布洛湿地保护区",
+   "name_en": "Sungei Buloh Wetland Reserve",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.440184,
+   "lng": 103.735322,
+   "area": "Kranji",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Jurong East 换南北线到 Kranji 站（NS7），换巴士 925 或 925M 到湿地入口",
+    "minutes": 80,
+    "cost_sgd": "约 S$2.38（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "7:00 至 19:00（最后入场 18:30）；1 号观景台装修关闭到 2026-10-23；涨潮或天气差时部分区域临时关闭，出发前看 NParks 公告",
+   "duration": "3 至 4 小时",
+   "best_time": "早上 7 点到 9 点看鸟和鳄鱼，潮水低时更容易看到",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "防滑运动鞋",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）"
+   ],
+   "tips": "可能看到河口鳄和巨蜥，别靠近水边；周日 925M 会开进湿地门口",
+   "food_nearby": [
+    "Kranji 一带店少，建议回市区吃，或自带干粮"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/sungei-buloh-wetland-reserve"
+   ],
+   "check": "官网已核（NParks）",
+   "geo_source": "OneMap：SUNGEI BULOH WETLAND RESERVE (VISITOR CENTRE)",
+   "budget": "免费"
+  },
+  {
+   "id": "a_coney",
+   "name_zh": "科尼岛公园",
+   "name_en": "Coney Island Park",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.408831,
+   "lng": 103.922617,
+   "area": "Punggol",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Punggol 站（NE17），换巴士 84 到 Punggol Point，从西入口进",
+    "minutes": 70,
+    "cost_sgd": "约 S$2.26（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "7:00 至 19:00",
+   "duration": "2 至 3 小时",
+   "best_time": "早上，阳光不太晒",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "防滑运动鞋",
+    "骑车可带头盔（租车点一般也有）"
+   ],
+   "tips": "岛上没有电灯和自来水，厕所是太阳能的；可以骑车穿岛（自带或在 Punggol 租）",
+   "food_nearby": [
+    "Punggol Point 一带的餐厅（未核实）"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/coney-island-park"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：CONEY ISLAND PARK",
+   "budget": "免费"
+  },
+  {
+   "id": "a_botanic",
+   "name_zh": "新加坡植物园",
+   "name_en": "Singapore Botanic Gardens",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.313479,
+   "lng": 103.81318,
+   "area": "Tanglin",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Napier 站（TE12），出站就是 Tanglin 门",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.70（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "植物园免费；国家胡姬花园另收费：标准票成人 S$15、学生和 60 岁以上 S$3、12 岁以下免费；本地价成人 S$5，官网写本地价适用于 \"those living in Singapore, including holders of employment passes, Work Permits or Dependant passes\"，没点名工作假期准证，带上准证卡问售票处（能否按本地价未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "植物园 5:00 至 24:00；国家胡姬花园 8:30 至 19:00（18:00 停止售票和入场）",
+   "duration": "2 至 3 小时",
+   "best_time": "早上 7 点前后凉快，周末早上有人跑步",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）"
+   ],
+   "tips": "联合国世界遗产；天鹅湖和姜园都免费",
+   "food_nearby": [
+    "Adam Road Food Centre（步行约 15 分钟）",
+    "Dempsey Hill 的餐厅（较贵）"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/sbg",
+    "https://sbg.nparks.gov.sg/visit/general-info/"
+   ],
+   "check": "官网已核（2026-10-11）",
+   "geo_source": "OneMap：SINGAPORE BOTANIC GARDENS",
+   "budget": "免费"
+  },
+  {
+   "id": "a_bukit_timah",
+   "name_zh": "武吉知马自然保护区",
+   "name_en": "Bukit Timah Nature Reserve",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.354431,
+   "lng": 103.778073,
+   "area": "Bukit Timah",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Stevens 换滨海市区线到 Beauty World 站（DT5），步行约 10 分钟到游客中心",
+    "minutes": 45,
+    "cost_sgd": "约 S$2.09（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "7:00 至 19:00",
+   "duration": "2 至 3 小时",
+   "best_time": "早上 7 点开门就上山，下山正好吃早餐",
+   "prep": [
+    "水壶（公园和地铁站有饮水机）",
+    "防滑运动鞋",
+    "驱蚊液（有登革热风险）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "防晒霜、帽子、墨镜"
+   ],
+   "tips": "登顶 163 m 是新加坡最高点；步道陡，雨后很滑；有猴子",
+   "food_nearby": [
+    "Beauty World 美食中心"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/bukit-timah-nature-reserve"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：BUKIT TIMAH NATURE RESERVE",
+   "budget": "免费"
+  },
+  {
+   "id": "a_fort_canning",
+   "name_zh": "福康宁公园与 Battlebox",
+   "name_en": "Fort Canning Park",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.292516,
+   "lng": 103.847682,
+   "area": "市中心",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Clarke Quay 站（NE5），步行约 10 分钟；或打车约 10 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "公园免费；Battlebox 基础参观现在免费但要在网上预约",
+   "price_as_of": "2026-10-11",
+   "hours": "公园全天开放；Battlebox 周二至周日 10:00 至 18:00",
+   "duration": "1.5 至 2 小时",
+   "best_time": "上午或傍晚；树隧道楼梯早上拍照人少",
+   "prep": [
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）"
+   ],
+   "tips": "Battlebox 是二战地下指挥所；香料园 7:00 至 19:00",
+   "food_nearby": [
+    "Hong Lim Market & Food Centre（打车约 5 分钟）",
+    "Clarke Quay 一带餐厅"
+   ],
+   "tags": [
+    "免费",
+    "半天",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/fort-canning-park"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：FORT CANNING PARK",
+   "budget": "免费"
+  },
+  {
+   "id": "a_jurong_lake",
+   "name_zh": "裕廊湖花园",
+   "name_en": "Jurong Lake Gardens",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.33936,
+   "lng": 103.727299,
+   "area": "Jurong",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线直达 Chinese Garden 站（EW25）或 Lakeside 站（EW26），不用换乘",
+    "minutes": 40,
+    "cost_sgd": "约 S$2.20（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "湖畔花园全天开放；中华与日本花园约 5:30 至 24:00",
+   "duration": "2 至 3 小时",
+   "best_time": "傍晚，湖边日落很好看",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）"
+   ],
+   "tips": "Passion Wave 可以划船（收费，未核实）；儿童水上乐园周末人多",
+   "food_nearby": [
+    "Jurong East 一带商场美食"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://juronglakegardens.nparks.gov.sg/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：JURONG LAKE GARDENS",
+   "budget": "免费"
+  },
+  {
+   "id": "a_east_coast",
+   "name_zh": "东海岸公园骑车",
+   "name_en": "East Coast Park",
+   "category": "景点",
+   "subcategory": "离岛与海滩",
+   "lat": 1.313266,
+   "lng": 103.924569,
+   "area": "东海岸",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Marine Parade 站（TE26），步行约 15 分钟穿过地下通道到海边",
+    "minutes": 35,
+    "cost_sgd": "约 S$1.97（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费；租自行车按小时收费（未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "全天开放",
+   "duration": "2 至 4 小时",
+   "best_time": "傍晚 5 点后骑车，接着吃沙爹当晚饭",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "泳衣和换洗衣物",
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）"
+   ],
+   "tips": "沿海骑行道约 15 km；可从这里骑到 Marina Barrage",
+   "food_nearby": [
+    "East Coast Lagoon Food Village 沙爹",
+    "328 Katong Laksa（步行约 20 分钟）"
+   ],
+   "tags": [
+    "免费",
+    "半天",
+    "夜晚"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/east-coast-park"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：EAST COAST PARK",
+   "budget": "免费"
+  },
+  {
+   "id": "a_punggol",
+   "name_zh": "榜鹅水道公园",
+   "name_en": "Punggol Waterway Park",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.410997,
+   "lng": 103.904815,
+   "area": "Punggol",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Punggol 站（NE17），换轻轨或步行约 15 分钟",
+    "minutes": 60,
+    "cost_sgd": "约 S$2.24（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "全天开放",
+   "duration": "2 小时",
+   "best_time": "傍晚，彩虹桥 Lorong Halus 一带看日落",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）"
+   ],
+   "tips": "可骑车接到 Coney Island，组成半天行程",
+   "food_nearby": [
+    "Punggol 一带的组屋区熟食中心（未核实）"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/punggol-waterway-park"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：PUNGGOL WATERWAY PARK",
+   "budget": "免费"
+  },
+  {
+   "id": "a_rail_corridor",
+   "name_zh": "铁道走廊",
+   "name_en": "Rail Corridor (Bukit Timah Railway Station)",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.334655,
+   "lng": 103.781492,
+   "area": "Bukit Timah",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Stevens 换滨海市区线到 King Albert Park 站（DT6），步行约 10 分钟",
+    "minutes": 45,
+    "cost_sgd": "约 S$1.98（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "全天开放",
+   "duration": "2 至 3 小时（可只走一段）",
+   "best_time": "早上，平路适合散步跑步",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "防滑运动鞋"
+   ],
+   "tips": "旧火车站已修复开放；铁道走廊南北长约 24 km，平坦好走",
+   "food_nearby": [
+    "Beauty World 美食中心"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://railcorridor.nparks.gov.sg/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：BUKIT TIMAH RAILWAY STATION",
+   "budget": "免费"
+  },
+  {
+   "id": "a_marina_barrage",
+   "name_zh": "滨海堤坝",
+   "name_en": "Marina Barrage",
+   "category": "景点",
+   "subcategory": "地标与观景",
+   "lat": 1.279906,
+   "lng": 103.87047,
+   "area": "Marina South",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Gardens by the Bay 站（TE22），步行约 10 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.33（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "屋顶草坪全天开放；游客中心约 9:00 至 21:00（未核实）",
+   "duration": "1 小时",
+   "best_time": "傍晚放风筝看日落，可看到金沙和摩天轮",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "草坪平整适合野餐；可和滨海湾花园一起去",
+   "food_nearby": [
+    "Satay by the Bay（滨海湾花园内）"
+   ],
+   "tags": [
+    "免费",
+    "夜晚"
+   ],
+   "sources": [
+    "https://www.pub.gov.sg/Public/Places-of-Interest/Marina-Barrage"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：MARINA BARRAGE",
+   "budget": "免费"
+  },
+  {
+   "id": "a_sentosa_beach",
+   "name_zh": "圣淘沙海滩（巴拉湾、西乐索）",
+   "name_en": "Sentosa beaches (Palawan, Siloso)",
+   "category": "景点",
+   "subcategory": "离岛与海滩",
+   "lat": 1.247984,
+   "lng": 103.822175,
+   "area": "Sentosa",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 HarbourFront 站（NE1），进 VivoCity 3 楼走 Sentosa Boardwalk 步行上岛（约 15 分钟），或坐 Sentosa Express",
+    "minutes": 35,
+    "cost_sgd": "地铁约 S$1.5；步行上岛免费，Sentosa Express S$4"
+   },
+   "cost": "海滩免费；步行上岛免费；Sentosa Express 单程 S$4",
+   "price_as_of": "2026-10-11",
+   "hours": "海滩全天开放",
+   "duration": "半天到一整天",
+   "best_time": "下午 4 点后去，玩水后在 Siloso 看日落",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "泳衣和换洗衣物",
+    "水壶（公园和地铁站有饮水机）",
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）"
+   ],
+   "tips": "巴拉湾有吊桥通到小岛上的观景台；岛内交通看 Sentosa 官网",
+   "food_nearby": [
+    "VivoCity 地下美食广场",
+    "海滩边的酒吧餐厅（较贵）"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.sentosa.com.sg"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：PALAWAN BEACH",
+   "budget": "免费"
+  },
+  {
+   "id": "a_lazarus",
+   "name_zh": "圣约翰岛与拉撒路岛",
+   "name_en": "St John's Island and Lazarus Island",
+   "category": "景点",
+   "subcategory": "离岛与海滩",
+   "lat": 1.22055,
+   "lng": 103.859261,
+   "area": "南部离岛",
+   "from_home": {
+    "route": "步行或打车约 10 分钟到 Marina South Pier（也可坐汤申东海岸线到 Marina South 站 TE21），坐渡轮约 30 分钟",
+    "minutes": 50,
+    "cost_sgd": "渡轮往返约 S$12 至 14"
+   },
+   "cost": "上岛免费；渡轮往返约 S$12 至 14（Island Cruise 平日价）",
+   "price_as_of": "2026-10-11",
+   "hours": "渡轮班次有限，按渡轮公司时刻表；St John's 主码头 2025-04-24 起关闭，船只停靠 Lazarus 码头",
+   "duration": "大半天",
+   "best_time": "工作日或周末早班船，人少水清",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "泳衣和换洗衣物",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "提前在官网买票",
+    "少量新币现金（有的摊位或船只收现金）"
+   ],
+   "tips": "岛上几乎没有商店，食物和水自带；回程看准末班船时间；Lazarus 海滩是新加坡最清的海水之一",
+   "food_nearby": [
+    "自带野餐（岛上没有餐厅）"
+   ],
+   "tags": [
+    "一整天"
+   ],
+   "sources": [
+    "https://islandcruise.com.sg"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：LAZARUS ISLAND",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_kusu",
+   "name_zh": "龟屿（大伯公庙与拿督庙）",
+   "name_en": "Kusu Island",
+   "category": "景点",
+   "subcategory": "离岛与海滩",
+   "lat": 1.22438,
+   "lng": 103.85839,
+   "area": "南部离岛",
+   "from_home": {
+    "route": "到 Marina South Pier（步行或打车约 10 分钟），坐 Singapore Island Cruise 渡轮约 15 分钟",
+    "minutes": 40,
+    "cost_sgd": "渡轮 S$16 至 18（朝圣季）"
+   },
+   "cost": "上岛免费；朝圣季渡轮成人平日 S$16、周末与公众假期 S$18",
+   "price_as_of": "2026-10-11",
+   "hours": "2026 年龟屿朝圣季 10 月 10 日至 11 月 8 日：只走 SIC 渡轮，每小时一班，头班 7:00，最后去程 17:00，最后回程 19:00，岛上不能过夜",
+   "duration": "2 至 3 小时",
+   "best_time": "朝圣季平日上午，周末拜神的人非常多",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "提前在官网买票"
+   ],
+   "tips": "朝圣季期间普通游客能否照常上岛有不同说法，土地管理局（SLA）公告没写限制，出发前看 SIC 官网；龟屿岛上有大伯公庙和山顶拿督庙",
+   "food_nearby": [
+    "自带食物，回市区后去 Lau Pa Sat"
+   ],
+   "tags": [
+    "半天"
+   ],
+   "sources": [
+    "https://islandcruise.com.sg",
+    "https://www.misslobang.com/article/kusu-pilgrimage-season-2026-ferry-fares-dates"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：KUSU ISLAND",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_gbtb",
+   "name_zh": "滨海湾花园",
+   "name_en": "Gardens by the Bay",
+   "category": "景点",
+   "subcategory": "地标与观景",
+   "lat": 1.284589,
+   "lng": 103.864657,
+   "area": "Marina Bay",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Gardens by the Bay 站（TE22），出站即到",
+    "minutes": 15,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "户外花园和超级树灯光秀免费；花穹和云雾林两馆联票，非居民成人约 S$53",
+   "price_as_of": "2026-10-11",
+   "hours": "户外花园 5:00 至 2:00（官网）；花穹、云雾林 9:00 至 21:00，每月各有一天维护闭馆；超级树灯光秀 Garden Rhapsody 每晚 19:45 和 20:45；Floral Fantasy 10 月 13 日停开一天",
+   "duration": "2 至 4 小时",
+   "best_time": "傍晚 6 点进馆，出来正好看 19:45 灯光秀",
+   "prep": [
+    "提前在官网买票",
+    "出门前看 NEA 的 PSI 空气指数（2026 年 10 月有烟霾）",
+    "水壶（公园和地铁站有饮水机）",
+    "薄外套（室内冷气很足）"
+   ],
+   "tips": "2026-10-10 官网提示 PSI 预计不健康并取消导览，出发前看官网公告；两馆里面冷，带薄外套",
+   "food_nearby": [
+    "Satay by the Bay",
+    "Lau Pa Sat（打车约 10 分钟）"
+   ],
+   "tags": [
+    "免费",
+    "雨天可去",
+    "夜晚",
+    "半天"
+   ],
+   "sources": [
+    "https://www.gardensbythebay.com.sg/en/things-to-do/attractions.html",
+    "https://www.gardensbythebay.com.sg/en/plan-your-visit/opening-hours.html"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：GARDENS BY THE BAY",
+   "budget": "免费"
+  },
+  {
+   "id": "a_merlion",
+   "name_zh": "鱼尾狮公园与滨海湾步道",
+   "name_en": "Merlion Park and Marina Bay waterfront",
+   "category": "景点",
+   "subcategory": "地标与观景",
+   "lat": 1.286811,
+   "lng": 103.854535,
+   "area": "Marina Bay",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线一站到 Raffles Place（EW14），步行约 10 分钟；或从 Tanjong Pagar 站步行约 25 分钟",
+    "minutes": 20,
+    "cost_sgd": "步行免费，或地铁约 S$1.3"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "全天开放",
+   "duration": "1 小时",
+   "best_time": "晚上 20:00 看金沙的 Spectra 水舞灯光秀（周日至周四 20:00、21:00；周五六加 22:00）",
+   "prep": [
+    "水壶（公园和地铁站有饮水机）",
+    "手机充满电（扫码付款要用）"
+   ],
+   "tips": "沿海湾走一圈约 3.5 km，夜景是新加坡的招牌；Spectra 免费，在金沙活动广场看",
+   "food_nearby": [
+    "Lau Pa Sat 沙爹街（步行 10 分钟）",
+    "Makansutra Gluttons Bay（未核实）"
+   ],
+   "tags": [
+    "免费",
+    "夜晚",
+    "半天"
+   ],
+   "sources": [
+    "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/marina-bay/merlion-park/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：MERLION PARK",
+   "budget": "免费"
+  },
+  {
+   "id": "a_skypark",
+   "name_zh": "金沙酒店空中花园观景台",
+   "name_en": "Marina Bay Sands SkyPark Observation Deck",
+   "category": "景点",
+   "subcategory": "地标与观景",
+   "lat": 1.283423,
+   "lng": 103.860795,
+   "area": "Marina Bay",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Gardens by the Bay 站或 Bayfront 站，步行到金沙酒店 3 号塔",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "成人约 S$32",
+   "price_as_of": "2026-10-11",
+   "hours": "未核实",
+   "duration": "1 小时",
+   "best_time": "日落前 30 分钟上去",
+   "prep": [
+    "提前在官网买票",
+    "手机充满电（扫码付款要用）"
+   ],
+   "tips": "观景台不是酒店无边泳池，泳池只对住客开放",
+   "food_nearby": [
+    "金沙商场 Rasapura 美食广场"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://www.marinabaysands.com/attractions/sands-skypark.html"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：MARINA BAY SANDS SKYPARK",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "a_flyer",
+   "name_zh": "新加坡摩天观景轮",
+   "name_en": "Singapore Flyer",
+   "category": "景点",
+   "subcategory": "地标与观景",
+   "lat": 1.289073,
+   "lng": 103.862922,
+   "area": "Marina Centre",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Marina Bay 换环线到 Promenade 站（CC4），步行约 10 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "成人约 S$40（票价本单没在官网读到，未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 10:00 至 22:00，含公众假期，最后入场 21:30，不用预约时段（官网）",
+   "duration": "1 小时（一圈约 30 分钟）",
+   "best_time": "傍晚日落时段",
+   "prep": [
+    "提前在官网买票",
+    "手机充满电（扫码付款要用）"
+   ],
+   "tips": "网上常有折扣；可以和滨海湾夜景连成一晚",
+   "food_nearby": [
+    "Singapore Food Trail（摩天轮楼下，未核实）"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://www.singaporeflyer.com",
+    "https://www.singaporeflyer.com/en/plan-your-visit"
+   ],
+   "check": "官网已核（时间）",
+   "geo_source": "OneMap：SINGAPORE FLYER",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "a_artscience",
+   "name_zh": "艺术科学博物馆",
+   "name_en": "ArtScience Museum",
+   "category": "景点",
+   "subcategory": "博物馆与美术馆",
+   "lat": 1.286224,
+   "lng": 103.859271,
+   "area": "Marina Bay",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Bayfront 站（CE1/DT16）需换乘，或从 Tanjong Pagar 站步行约 25 分钟过海湾",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "全部展览联票约 S$38；只看 Future World 约 S$21",
+   "price_as_of": "2026-10-11",
+   "hours": "未核实",
+   "duration": "2 小时",
+   "best_time": "工作日或周末上午",
+   "prep": [
+    "提前在官网买票"
+   ],
+   "tips": "Future World 是 teamLab 光影展，雨天很合适",
+   "food_nearby": [
+    "金沙商场 Rasapura 美食广场"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.marinabaysands.com/museum.html"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：ARTSCIENCE MUSEUM",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "a_capitaspring",
+   "name_zh": "凯德春空中花园",
+   "name_en": "CapitaSpring Green Oasis",
+   "category": "景点",
+   "subcategory": "地标与观景",
+   "lat": 1.2839,
+   "lng": 103.850006,
+   "area": "Raffles Place",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 15 分钟到 88 Market Street",
+    "minutes": 15,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 8:30 至 10:30、14:30 至 22:00（最后入场 21:30）；10:30 至 14:30 只给租户和餐厅客人；可能因私人活动或天气关闭",
+   "duration": "30 分钟",
+   "best_time": "傍晚 6 点前后看日落转夜景",
+   "prep": [
+    "免费但要先在网上订时段",
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）",
+    "手机充满电（入场要出示预约码）"
+   ],
+   "tips": "51 楼空中花园和 17 至 20 楼绿洲，可俯看市中心；订好时段再去",
+   "food_nearby": [
+    "Lau Pa Sat（步行 3 分钟）",
+    "Amoy Street Food Centre"
+   ],
+   "tags": [
+    "免费",
+    "半天",
+    "需预约",
+    "夜晚"
+   ],
+   "sources": [
+    "https://www.capitaland.com/sg/en/lease/commercial-space-listing/capitaspring.html",
+    "https://www.sassymamasg.com/play-capitaspring-sky-garden-green-oasis/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：CAPITASPRING",
+   "budget": "免费"
+  },
+  {
+   "id": "a_pinnacle",
+   "name_zh": "达士岭组屋空中步道",
+   "name_en": "Pinnacle@Duxton Skybridge",
+   "category": "景点",
+   "subcategory": "地标与观景",
+   "lat": 1.275488,
+   "lng": 103.841419,
+   "area": "Tanjong Pagar",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 10 分钟到 1 Cantonment Road",
+    "minutes": 10,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "S$6（只收电子支付，可用哪些方式未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "9:00 至 21:00；每天限 150 人",
+   "duration": "45 分钟",
+   "best_time": "傍晚到天黑，看港口和市中心夜景",
+   "prep": [
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）",
+    "手机充满电（扫码付款要用）"
+   ],
+   "tips": "这是组屋屋顶，保持安静；名额满了就上不去，早点去",
+   "food_nearby": [
+    "Tanjong Pagar Plaza 熟食中心（步行 3 分钟）",
+    "Maxwell Food Centre"
+   ],
+   "tags": [
+    "夜晚",
+    "半天"
+   ],
+   "sources": [
+    "https://www.hdb.gov.sg/about-us/history/hdb-iconic-projects/the-pinnacle-at-duxton"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：PINNACLE @ DUXTON",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_nms",
+   "name_zh": "新加坡国家博物馆",
+   "name_en": "National Museum of Singapore",
+   "category": "景点",
+   "subcategory": "博物馆与美术馆",
+   "lat": 1.29672,
+   "lng": 103.848511,
+   "area": "Bras Basah",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Dhoby Ghaut 站（NE6），步行约 8 分钟；或打车约 10 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "外国成人 S$18（2026-10-13 起新票价；10 月 10 至 12 日免费）",
+   "price_as_of": "2026-10-11",
+   "hours": "10:00 至 19:00",
+   "duration": "2 至 3 小时",
+   "best_time": "工作日上午",
+   "prep": [
+    "薄外套（室内冷气很足）"
+   ],
+   "tips": "官网是动态网页，本单直接读取没成功，票价来自搜索摘要；新加坡历史长廊值得慢慢看",
+   "food_nearby": [
+    "Hong Lim Market & Food Centre",
+    "Bras Basah 一带咖啡馆"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nationalmuseum.nhb.gov.sg/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：NATIONAL MUSEUM OF SINGAPORE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_ngs",
+   "name_zh": "新加坡国家美术馆",
+   "name_en": "National Gallery Singapore",
+   "category": "景点",
+   "subcategory": "博物馆与美术馆",
+   "lat": 1.290655,
+   "lng": 103.851708,
+   "area": "市政区",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 City Hall 站（EW13），不用换乘，步行约 5 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "外国成人约 S$20",
+   "price_as_of": "2026-10-11",
+   "hours": "10:00 至 19:00",
+   "duration": "2 至 3 小时",
+   "best_time": "下午，看完上屋顶花园看黄昏",
+   "prep": [
+    "薄外套（室内冷气很足）"
+   ],
+   "tips": "屋顶花园 Padang Deck 可免费上去看景（未核实）",
+   "food_nearby": [
+    "Lau Pa Sat",
+    "Hong Lim Market & Food Centre"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nationalgallery.sg"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：NATIONAL GALLERY SINGAPORE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_acm",
+   "name_zh": "亚洲文明博物馆",
+   "name_en": "Asian Civilisations Museum",
+   "category": "景点",
+   "subcategory": "博物馆与美术馆",
+   "lat": 1.287441,
+   "lng": 103.851375,
+   "area": "市政区",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 20 分钟经 Raffles Place；或 Tanjong Pagar 站坐东西线到 Raffles Place（EW14），步行约 8 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "成人约 S$12",
+   "price_as_of": "2026-10-11",
+   "hours": "10:00 至 19:00（周五到 21:00）",
+   "duration": "2 小时",
+   "best_time": "周五晚上",
+   "prep": [
+    "薄外套（室内冷气很足）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）",
+    "门票可在现场或官网买，出发前看官网有没有闭馆或特展"
+   ],
+   "tips": "唐代沉船黑石号的瓷器是镇馆之宝；出来就是新加坡河",
+   "food_nearby": [
+    "Song Fa 肉骨茶（步行约 10 分钟）",
+    "Lau Pa Sat"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.acm.nhb.gov.sg/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：ASIAN CIVILISATIONS MUSEUM",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_peranakan",
+   "name_zh": "土生华人博物馆",
+   "name_en": "Peranakan Museum",
+   "category": "景点",
+   "subcategory": "博物馆与美术馆",
+   "lat": 1.294287,
+   "lng": 103.849041,
+   "area": "Armenian Street",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 City Hall 站（EW13），步行约 10 分钟到 39 Armenian Street",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "成人约 S$12",
+   "price_as_of": "2026-10-11",
+   "hours": "10:00 至 19:00（周五到 21:00）",
+   "duration": "1.5 小时",
+   "best_time": "上午或周五晚上",
+   "prep": [
+    "薄外套（室内冷气很足）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）",
+    "门票可在现场或官网买，出发前看官网有没有闭馆或特展"
+   ],
+   "tips": "可配合 Joo Chiat 的土生华人彩色排屋一起看",
+   "food_nearby": [
+    "Hong Lim Market & Food Centre"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.peranakanmuseum.nhb.gov.sg/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：PERANAKAN MUSEUM",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_sam",
+   "name_zh": "新加坡美术馆（丹戎巴葛货仓）",
+   "name_en": "Singapore Art Museum at Tanjong Pagar Distripark",
+   "category": "景点",
+   "subcategory": "博物馆与美术馆",
+   "lat": 1.271878,
+   "lng": 103.836752,
+   "area": "Tanjong Pagar",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 15 分钟；或 Cantonment 站（CC31）出口 4 对面",
+    "minutes": 15,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "游客和外国居民 S$10",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 10:00 至 19:00",
+   "duration": "1.5 小时",
+   "best_time": "下午",
+   "prep": [
+    "薄外套（室内冷气很足）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）",
+    "门票可在现场或官网买，出发前看官网有没有闭馆或特展"
+   ],
+   "tips": "当代艺术，离 Tanjong Pagar 站最近的美术馆；同一栋楼还有几家画廊",
+   "food_nearby": [
+    "Tanjong Pagar Plaza 熟食中心",
+    "Tiong Bahru Market（打车约 5 分钟）"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.singaporeartmuseum.sg/visit"
+   ],
+   "check": "官网已核",
+   "geo_source": "OneMap：TANJONG PAGAR DISTRIPARK",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_ihc",
+   "name_zh": "印度传统文化馆",
+   "name_en": "Indian Heritage Centre",
+   "category": "景点",
+   "subcategory": "博物馆与美术馆",
+   "lat": 1.305681,
+   "lng": 103.852252,
+   "area": "Little India",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Outram Park 换东北线到 Little India 站（NE7），步行约 3 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.42（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "新加坡公民和 PR 免费；外国居民和游客成人 S$10，60 岁以上、学生、残障人士 S$8，6 岁以下免费（官网）",
+   "price_as_of": "2026-10-11",
+   "hours": "周二至周日 10:00 至 18:00（最后入场 17:30）；每周一休息，含周一的公众假期",
+   "duration": "1 小时",
+   "best_time": "上午，看完逛小印度",
+   "prep": [
+    "遮住肩膀和膝盖的衣服（宗教场所要求）"
+   ],
+   "tips": "地址 5 Campbell Lane；馆内不能吃喝",
+   "food_nearby": [
+    "Tekka Centre 印度香饭",
+    "Komala Vilas 素食薄饼"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.indianheritage.gov.sg/en/plan-your-visit/location-opening-hours",
+    "https://www.indianheritage.gov.sg/en/plan-your-visit/admission-fees"
+   ],
+   "check": "官网已核（时间和票价）",
+   "geo_source": "OneMap：INDIAN HERITAGE CENTRE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_mhc",
+   "name_zh": "马来传统文化馆",
+   "name_en": "Malay Heritage Centre",
+   "category": "景点",
+   "subcategory": "博物馆与美术馆",
+   "lat": 1.302881,
+   "lng": 103.859868,
+   "area": "Kampong Glam",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Bugis 站（EW12），不用换乘，步行约 10 分钟到 85 Sultan Gate",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.42（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "新加坡公民和 PR 免费；外国居民和游客成人 S$10，60 岁以上、学生、残障人士 S$8，6 岁以下免费（官网）",
+   "price_as_of": "2026-10-11",
+   "hours": "常设展厅周二至周日 10:00 至 18:00（最后入场 17:30），庭院 8:00 至 21:00，每周一休息（官网）",
+   "duration": "1 小时",
+   "best_time": "上午，配合甘榜格南街区",
+   "prep": [
+    "薄外套（室内冷气很足）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）",
+    "门票可在现场或官网买，出发前看官网有没有闭馆或特展"
+   ],
+   "tips": "装修后重新开放；旁边就是苏丹回教堂",
+   "food_nearby": [
+    "Zam Zam 煎饼（步行 3 分钟）"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.malayheritage.gov.sg"
+   ],
+   "check": "官网已核（时间和票价）",
+   "geo_source": "OneMap：MALAY HERITAGE CENTRE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_city_gallery",
+   "name_zh": "新加坡城市展览馆",
+   "name_en": "Singapore City Gallery",
+   "category": "景点",
+   "subcategory": "博物馆与美术馆",
+   "lat": 1.279576,
+   "lng": 103.845313,
+   "area": "Tanjong Pagar",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 8 分钟到 45 Maxwell Road（URA 大楼）",
+    "minutes": 8,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "周一至周六 9:00 至 17:00；周日和公众假期休息",
+   "duration": "1 小时",
+   "best_time": "工作日或周六上午",
+   "prep": [
+    "薄外套（室内冷气很足）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）",
+    "门票可在现场或官网买，出发前看官网有没有闭馆或特展"
+   ],
+   "tips": "有全岛城市模型，适合了解新加坡怎么规划；出来就是 Maxwell 熟食中心",
+   "food_nearby": [
+    "Maxwell Food Centre（对面）"
+   ],
+   "tags": [
+    "免费",
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.ura.gov.sg/get-involved/singapore-city-gallery/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：THE URA CENTRE",
+   "budget": "免费"
+  },
+  {
+   "id": "a_science_centre",
+   "name_zh": "新加坡科学馆",
+   "name_en": "Science Centre Singapore",
+   "category": "景点",
+   "subcategory": "雨天去处",
+   "lat": 1.332839,
+   "lng": 103.735821,
+   "area": "Jurong East",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线直达 Jurong East 站（EW24），步行约 10 分钟",
+    "minutes": 40,
+    "cost_sgd": "约 S$2.18（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "科学馆单馆标准票成人 S$12、3 至 12 岁 S$8；新加坡公民和 PR 成人 S$6；只能网上或现场自助机买，不收现金（官网）",
+   "price_as_of": "2026-10-11",
+   "hours": "周二至周日 10:00 至 17:00，最后入场 16:15；周一休息，公众假期和学校假期的周一照开（官网）；新馆预计 2027 年在 Jurong Lake 一带开（未核实）",
+   "duration": "2 至 3 小时",
+   "best_time": "工作日，周末小孩多",
+   "prep": [
+    "提前在官网买票"
+   ],
+   "tips": "雨天去处；新馆搬迁前旧馆照常开",
+   "food_nearby": [
+    "Jurong East 商场美食"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天"
+   ],
+   "sources": [
+    "https://www.science.edu.sg",
+    "https://www.science.edu.sg/visit-us/ticket-prices"
+   ],
+   "check": "官网已核（时间和票价）",
+   "geo_source": "OneMap：SCIENCE CENTRE SINGAPORE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "a_chinatown",
+   "name_zh": "牛车水街区漫步",
+   "name_en": "Chinatown walk",
+   "category": "景点",
+   "subcategory": "街区漫步",
+   "lat": 1.281494,
+   "lng": 103.844242,
+   "area": "Chinatown",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 10 分钟，经 Maxwell 到佛牙寺",
+    "minutes": 10,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "免费（寺庙自愿捐款）",
+   "price_as_of": "2026-10-11",
+   "hours": "佛牙寺约 7:00 至 17:00（未核实）",
+   "duration": "2 至 3 小时",
+   "best_time": "上午逛寺庙，中午在熟食中心吃饭",
+   "prep": [
+    "遮住肩膀和膝盖的衣服（宗教场所要求）",
+    "水壶（公园和地铁站有饮水机）",
+    "纸巾一包（小贩中心不提供，也可用来占座）"
+   ],
+   "tips": "佛牙寺、马里安曼兴都庙、天福宫都在步行范围；寺庙内拍照注意告示",
+   "food_nearby": [
+    "Maxwell Food Centre",
+    "Chinatown Complex Food Centre"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/chinatown/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：BUDDHA TOOTH RELIC TEMPLE",
+   "budget": "免费"
+  },
+  {
+   "id": "a_kampong_glam",
+   "name_zh": "甘榜格南与苏丹回教堂",
+   "name_en": "Kampong Glam and Sultan Mosque",
+   "category": "景点",
+   "subcategory": "街区漫步",
+   "lat": 1.302238,
+   "lng": 103.859004,
+   "area": "Kampong Glam",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Bugis 站（EW12），步行约 8 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.40（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "苏丹回教堂参观时间约周六至周四 10:00 至 12:00、14:00 至 16:00，周五不对游客开放（第三方来源）",
+   "duration": "2 小时",
+   "best_time": "下午到傍晚，Haji Lane 傍晚热闹",
+   "prep": [
+    "遮住肩膀和膝盖的衣服（宗教场所要求）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "进回教堂要穿长裤长裙，门口可借袍子；Haji Lane 有涂鸦和小店",
+   "food_nearby": [
+    "Zam Zam 煎饼",
+    "Hjh Maimunah 马来餐（未核实）"
+   ],
+   "tags": [
+    "免费",
+    "半天",
+    "夜晚"
+   ],
+   "sources": [
+    "https://sultanmosque.sg"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：3 MUSCAT STREET",
+   "budget": "免费"
+  },
+  {
+   "id": "a_little_india",
+   "name_zh": "小印度街区漫步",
+   "name_en": "Little India walk",
+   "category": "景点",
+   "subcategory": "街区漫步",
+   "lat": 1.305677,
+   "lng": 103.851547,
+   "area": "Little India",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Outram Park 换东北线到 Little India 站（NE7）",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.42（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "街区全天；店铺约 10:00 至 22:00（未核实）",
+   "duration": "2 小时",
+   "best_time": "傍晚，屠妖节前后灯饰最好看",
+   "prep": [
+    "遮住肩膀和膝盖的衣服（宗教场所要求）",
+    "水壶（公园和地铁站有饮水机）",
+    "少量新币现金（有的摊位或船只收现金）"
+   ],
+   "tips": "维拉玛卡里亚曼兴都庙进门脱鞋；Tekka Centre 是全岛最大的室内菜市场，香料和干货很全，楼下就是熟食中心",
+   "food_nearby": [
+    "Tekka Centre 印度香饭",
+    "Komala Vilas"
+   ],
+   "tags": [
+    "免费",
+    "半天",
+    "夜晚"
+   ],
+   "sources": [
+    "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/little-india/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：LITTLE INDIA ARCADE",
+   "budget": "免费"
+  },
+  {
+   "id": "a_joo_chiat",
+   "name_zh": "如切与加东土生华人排屋",
+   "name_en": "Joo Chiat and Katong",
+   "category": "景点",
+   "subcategory": "街区漫步",
+   "lat": 1.310902,
+   "lng": 103.903384,
+   "area": "Katong",
+   "from_home": {
+    "route": "Shenton Way 站坐汤申东海岸线到 Marine Parade 站（TE26），步行约 15 分钟到 Koon Seng Road",
+    "minutes": 35,
+    "cost_sgd": "约 S$1.86（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "街道全天",
+   "duration": "2 至 3 小时",
+   "best_time": "上午光线好，拍彩色排屋",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "Koon Seng Road 的彩色排屋是私人住宅，只在街上拍，别进院子",
+   "food_nearby": [
+    "328 Katong Laksa",
+    "Chin Mee Chin 咖啡店"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/katong-joo-chiat/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：KOON SENG ROAD",
+   "budget": "免费"
+  },
+  {
+   "id": "a_tiong_bahru",
+   "name_zh": "中峇鲁老组屋区漫步",
+   "name_en": "Tiong Bahru walk",
+   "category": "景点",
+   "subcategory": "街区漫步",
+   "lat": 1.282723,
+   "lng": 103.830305,
+   "area": "Tiong Bahru",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Tiong Bahru 站（EW17），步行约 10 分钟；或从 Tanjong Pagar 站打车约 8 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "街区全天",
+   "duration": "2 小时",
+   "best_time": "周末早上，先吃早餐再逛",
+   "prep": [
+    "水壶（公园和地铁站有饮水机）",
+    "纸巾一包（小贩中心不提供，也可用来占座）"
+   ],
+   "tips": "1930 年代装饰艺术风格组屋；独立书店和咖啡馆多",
+   "food_nearby": [
+    "Tiong Bahru Market 的 Jian Bo 水粿",
+    "Tiong Bahru Market 二楼熟食中心其他摊位"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.roots.gov.sg/places/places-landing/trails/tiong-bahru-heritage-trail"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：YONG SIAK STREET",
+   "budget": "免费"
+  },
+  {
+   "id": "a_haw_par",
+   "name_zh": "虎豹别墅与十殿阎罗博物馆",
+   "name_en": "Haw Par Villa and Hell's Museum",
+   "category": "景点",
+   "subcategory": "街区漫步",
+   "lat": 1.283724,
+   "lng": 103.782404,
+   "area": "Pasir Panjang",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换乘，或 HarbourFront 换环线到 Haw Par Villa 站（CC25），出站即到",
+    "minutes": 30,
+    "cost_sgd": "约 S$1.84（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "园区部分区域 2025-12-08 起维修暂停开放；Hell's Museum 成人 S$22",
+   "price_as_of": "2026-10-11",
+   "hours": "Hell's Museum 10:00 至 18:00（最后入场 17:00）；园区开放范围以官网为准",
+   "duration": "1.5 小时",
+   "best_time": "上午",
+   "prep": [
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）",
+    "防晒霜、帽子、墨镜"
+   ],
+   "tips": "十殿阎罗的雕塑有点吓人，怕的可以跳过；维修期间部分雕像区看不到",
+   "food_nearby": [
+    "ABC Brickworks Food Centre（打车约 8 分钟）"
+   ],
+   "tags": [
+    "半天"
+   ],
+   "sources": [
+    "https://www.hawparvilla.sg"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：262 PASIR PANJANG ROAD",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "a_zoo",
+   "name_zh": "新加坡动物园",
+   "name_en": "Singapore Zoo",
+   "category": "景点",
+   "subcategory": "主题乐园与动物园",
+   "lat": 1.405594,
+   "lng": 103.789598,
+   "area": "Mandai",
+   "from_home": {
+    "route": "打车约 30 分钟（约 S$25 至 35，未核实）；或 Tanjong Pagar 坐东西线换南北线到 Khatib 站，换 Mandai Khatib 接驳巴士",
+    "minutes": 60,
+    "cost_sgd": "地铁加接驳巴士约 S$2 至 4（接驳巴士价未核实）；打车约 S$25 至 35（未核实）"
+   },
+   "cost": "成人从 S$48 起（网上价）",
+   "price_as_of": "2026-10-11",
+   "hours": "8:30 至 18:00",
+   "duration": "半天",
+   "best_time": "8:30 开门就进，动物早上最活跃",
+   "prep": [
+    "提前在官网买票",
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "驱蚊液（有登革热风险）"
+   ],
+   "tips": "可买动物园加夜间动物园联票省钱；园里吃饭贵，带水",
+   "food_nearby": [
+    "园内餐厅（较贵）"
+   ],
+   "tags": [
+    "半天",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.mandai.com"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：SINGAPORE ZOO",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "a_night_safari",
+   "name_zh": "夜间动物园",
+   "name_en": "Night Safari",
+   "category": "景点",
+   "subcategory": "夜间去处",
+   "lat": 1.401633,
+   "lng": 103.784335,
+   "area": "Mandai",
+   "from_home": {
+    "route": "同新加坡动物园；晚上回程地铁末班车前注意时间，或打车",
+    "minutes": 60,
+    "cost_sgd": "地铁加接驳巴士约 S$2 至 4；打车约 S$25 至 35（未核实）"
+   },
+   "cost": "成人约 S$58",
+   "price_as_of": "2026-10-11",
+   "hours": "18:30 至 24:00",
+   "duration": "3 小时",
+   "best_time": "19:00 入园，先坐游览车再走步道",
+   "prep": [
+    "提前在官网买票",
+    "驱蚊液（有登革热风险）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）"
+   ],
+   "tips": "里面不能用闪光灯；要先订入园时段",
+   "food_nearby": [
+    "园内 Ulu Ulu 餐厅（未核实）"
+   ],
+   "tags": [
+    "夜晚",
+    "需预约",
+    "半天"
+   ],
+   "sources": [
+    "https://www.mandai.com"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：NIGHT SAFARI",
+   "budget": "更贵"
+  },
+  {
+   "id": "a_bird_paradise",
+   "name_zh": "飞禽公园",
+   "name_en": "Bird Paradise",
+   "category": "景点",
+   "subcategory": "主题乐园与动物园",
+   "lat": 1.404712,
+   "lng": 103.779811,
+   "area": "Mandai",
+   "from_home": {
+    "route": "同新加坡动物园",
+    "minutes": 60,
+    "cost_sgd": "地铁加接驳巴士约 S$2 至 4"
+   },
+   "cost": "成人从 S$48 起（网上价）",
+   "price_as_of": "2026-10-11",
+   "hours": "9:00 至 18:00",
+   "duration": "3 小时",
+   "best_time": "上午，喂食表演时间看官网",
+   "prep": [
+    "提前在官网买票",
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "大部分是大型鸟笼步道，雨天也能逛",
+   "food_nearby": [
+    "园内餐厅"
+   ],
+   "tags": [
+    "半天",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.mandai.com"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：BIRD PARADISE",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "a_river_wonders",
+   "name_zh": "河川生态园",
+   "name_en": "River Wonders",
+   "category": "景点",
+   "subcategory": "主题乐园与动物园",
+   "lat": 1.403662,
+   "lng": 103.792461,
+   "area": "Mandai",
+   "from_home": {
+    "route": "同新加坡动物园",
+    "minutes": 60,
+    "cost_sgd": "地铁加接驳巴士约 S$2 至 4"
+   },
+   "cost": "成人约 S$42",
+   "price_as_of": "2026-10-11",
+   "hours": "10:00 至 19:00",
+   "duration": "2 小时",
+   "best_time": "上午，看大熊猫",
+   "prep": [
+    "提前在官网买票"
+   ],
+   "tips": "有大熊猫馆，室内部分多",
+   "food_nearby": [
+    "园内餐厅"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.mandai.com"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：RIVER WONDERS",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "a_uss",
+   "name_zh": "新加坡环球影城",
+   "name_en": "Universal Studios Singapore",
+   "category": "景点",
+   "subcategory": "主题乐园与动物园",
+   "lat": 1.256121,
+   "lng": 103.822537,
+   "area": "Sentosa",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 HarbourFront（NE1），步行 Sentosa Boardwalk 或坐 Sentosa Express 到 Resorts World 站",
+    "minutes": 40,
+    "cost_sgd": "约 S$1.42（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "平日约 S$76，高峰日约 S$87（未核实，按日期浮动）",
+   "price_as_of": "2026-10-11",
+   "hours": "2026-10-11 官网显示当天 10:00 至 20:00；按日变化，看官网日历",
+   "duration": "一整天",
+   "best_time": "工作日开门就进，先玩热门项目",
+   "prep": [
+    "提前在官网买票",
+    "防晒霜、帽子、墨镜",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "水壶（公园和地铁站有饮水机）",
+    "充电宝"
+   ],
+   "tips": "日期不同票价不同，网上提前买；快速通道另收费",
+   "food_nearby": [
+    "Resorts World 美食广场 Malaysian Food Street（未核实）"
+   ],
+   "tags": [
+    "一整天",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.rwsentosa.com/en/play/universal-studios-singapore"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：UNIVERSAL STUDIOS SINGAPORE",
+   "budget": "更贵"
+  },
+  {
+   "id": "a_oceanarium",
+   "name_zh": "新加坡海洋馆",
+   "name_en": "Singapore Oceanarium",
+   "category": "景点",
+   "subcategory": "主题乐园与动物园",
+   "lat": 1.25836,
+   "lng": 103.820507,
+   "area": "Sentosa",
+   "from_home": {
+    "route": "同环球影城，到 Resorts World 站步行",
+    "minutes": 40,
+    "cost_sgd": "约 S$1.43（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "成人 S$55，4 至 12 岁和 60 岁以上 S$43",
+   "price_as_of": "2026-10-11",
+   "hours": "通常 10:00 至 20:00（未核实：官网时间表是动态加载的，出发前看官网日历）",
+   "duration": "2 至 3 小时",
+   "best_time": "下雨天或下午最热时",
+   "prep": [
+    "提前在官网买票",
+    "薄外套（室内冷气很足）"
+   ],
+   "tips": "原 S.E.A. 海洋馆扩建后改名",
+   "food_nearby": [
+    "Resorts World 美食广场"
+   ],
+   "tags": [
+    "雨天可去",
+    "半天",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.singaporeoceanarium.com/en/visit.html"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：SINGAPORE OCEANARIUM",
+   "budget": "更贵"
+  },
+  {
+   "id": "a_luge",
+   "name_zh": "圣淘沙斜坡滑车",
+   "name_en": "Skyline Luge Sentosa",
+   "category": "景点",
+   "subcategory": "主题乐园与动物园",
+   "lat": 1.254794,
+   "lng": 103.817245,
+   "area": "Sentosa",
+   "from_home": {
+    "route": "HarbourFront 步行上岛或坐 Sentosa Express 到 Beach 站，步行约 5 分钟",
+    "minutes": 40,
+    "cost_sgd": "约 S$1.50（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "两次滑车套票：上午 10 至 12 点优惠票 S$28，平时 S$33，16 点后高峰 S$39；三次 S$31 / 36 / 42",
+   "price_as_of": "2026-10-11",
+   "hours": "10:00 至 21:30（最后入场为关门前 1 小时；夜间滑车 19:00 起）",
+   "duration": "1.5 小时",
+   "best_time": "傍晚，滑完去 Siloso 看日落",
+   "prep": [
+    "提前在官网买票",
+    "防滑运动鞋"
+   ],
+   "tips": "穿包脚鞋；上午 10 至 12 点的优惠票最便宜但不能改期；小雷雨会暂停",
+   "food_nearby": [
+    "Siloso 海滩边餐厅"
+   ],
+   "tags": [
+    "半天"
+   ],
+   "sources": [
+    "https://sentosa.skylineluge.com/pricing-packages/",
+    "https://sentosa.skylineluge.com/visiting-us/opening-hours/"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：SKYLINE LUGE SENTOSA",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "a_jewel",
+   "name_zh": "星耀樟宜与雨漩涡",
+   "name_en": "Jewel Changi Airport",
+   "category": "景点",
+   "subcategory": "雨天去处",
+   "lat": 1.360341,
+   "lng": 103.989078,
+   "area": "Changi",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Tanah Merah 换机场支线到 Changi Airport 站（CG2），步行连通",
+    "minutes": 50,
+    "cost_sgd": "约 S$2.29（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费进入；树冠公园（Canopy Park）标准价每人 S$8，本地价 S$6 只给公民、PR 和 EP、工作准证、家属准证持有人，没写工作假期准证（官网）",
+   "price_as_of": "2026-10-11",
+   "hours": "商场约 10:00 至 22:00（未核实）；雨漩涡灯光秀每晚 20:00、21:00，周末加 22:00",
+   "duration": "2 至 3 小时",
+   "best_time": "晚上看雨漩涡灯光秀",
+   "prep": [
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）"
+   ],
+   "tips": "世界最大室内瀑布；可顺便去机场观景台",
+   "food_nearby": [
+    "Jewel 地下美食区"
+   ],
+   "tags": [
+    "免费",
+    "雨天可去",
+    "夜晚",
+    "半天"
+   ],
+   "sources": [
+    "https://www.jewelchangiairport.com",
+    "https://www.jewelchangiairport.com/en/attractions/canopy-park.html"
+   ],
+   "check": "官网已核（树冠公园票价）",
+   "geo_source": "OneMap：JEWEL CHANGI AIRPORT",
+   "budget": "免费"
+  },
+  {
+   "id": "a_clarke_quay",
+   "name_zh": "克拉码头与新加坡河夜游",
+   "name_en": "Clarke Quay and Singapore River",
+   "category": "景点",
+   "subcategory": "夜间去处",
+   "lat": 1.291878,
+   "lng": 103.844228,
+   "area": "Clarke Quay",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站打车约 8 分钟；或步行约 25 分钟沿新加坡河",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "走路免费；游船收费（未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "河边步道全天；酒吧餐厅从傍晚开到深夜",
+   "duration": "1.5 小时",
+   "best_time": "晚上 8 点后",
+   "prep": [
+    "交通卡或手机里的 Visa/Mastercard 感应卡（地铁公交直接刷）",
+    "少量新币现金（有的摊位或船只收现金）"
+   ],
+   "tips": "酒吧区价格高；沿河走到 Boat Quay 和鱼尾狮是一条好夜路",
+   "food_nearby": [
+    "Song Fa 肉骨茶（步行 5 分钟）",
+    "Hong Lim Market"
+   ],
+   "tags": [
+    "免费",
+    "夜晚"
+   ],
+   "sources": [
+    "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/singapore-river/",
+    "https://www.capitaland.com/sg/malls/clarkequay/en.html"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：CLARKE QUAY",
+   "budget": "免费"
+  },
+  {
+   "id": "a_esplanade",
+   "name_zh": "滨海艺术中心",
+   "name_en": "Esplanade Theatres on the Bay",
+   "category": "景点",
+   "subcategory": "夜间去处",
+   "lat": 1.290205,
+   "lng": 103.855567,
+   "area": "Marina Bay",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 30 分钟，或坐环线到 Esplanade 站（CC3）",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "公共区域免费；户外剧场常有免费演出",
+   "price_as_of": "2026-10-11",
+   "hours": "公共区域全天；免费演出时间看官网节目表",
+   "duration": "1 至 2 小时",
+   "best_time": "周末晚上户外剧场的免费表演",
+   "prep": [
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "屋顶露台可以免费看金沙；有图书馆，雨天可以坐坐",
+   "food_nearby": [
+    "Makansutra Gluttons Bay（未核实）"
+   ],
+   "tags": [
+    "免费",
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://www.esplanade.com"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：ESPLANADE THEATRES ON THE BAY",
+   "budget": "免费"
+  },
+  {
+   "id": "a_changi_ferry",
+   "name_zh": "樟宜尾海岸步道",
+   "name_en": "Changi Point Coastal Walk",
+   "category": "景点",
+   "subcategory": "自然与公园",
+   "lat": 1.390865,
+   "lng": 103.987584,
+   "area": "Changi",
+   "from_home": {
+    "route": "同乌敏岛：坐地铁到 Tanah Merah，再坐巴士 2 路到 Changi Village",
+    "minutes": 70,
+    "cost_sgd": "约 S$2.34（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "免费",
+   "price_as_of": "2026-10-11",
+   "hours": "全天开放",
+   "duration": "1.5 小时",
+   "best_time": "傍晚，看飞机降落和海上日落",
+   "prep": [
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "驱蚊液（有登革热风险）"
+   ],
+   "tips": "2.2 km 木栈道沿海；可和乌敏岛排在同一天",
+   "food_nearby": [
+    "Changi Village Hawker Centre 椰浆饭"
+   ],
+   "tags": [
+    "免费",
+    "半天"
+   ],
+   "sources": [
+    "https://www.nparks.gov.sg/visit/parks/park-detail/changi-beach-park"
+   ],
+   "check": "第三方汇总",
+   "geo_source": "OneMap：CHANGI POINT FERRY TERMINAL",
+   "budget": "免费"
+  },
+  {
+   "id": "f_maxwell_0",
+   "name_zh": "天天海南鸡饭",
+   "name_en": "Tian Tian Hainanese Chicken Rice",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.280331,
+   "lng": 103.844747,
+   "area": "Maxwell Food Centre #01-10/11",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 8 分钟，经 Tanjong Pagar Road",
+    "minutes": 8,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 S$5 至 8",
+   "price_as_of": "2026-10-11",
+   "hours": "周二至周日 10:00 至 20:00；周一休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "10:30 前或 14:30 后",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。午饭时段常排 20 至 30 分钟",
+   "signature": "海南鸡饭",
+   "food_nearby": [
+    "就在 Maxwell，可顺便买 Zhen Zhen 粥"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://guide.michelin.com/en/singapore-region/singapore/restaurant/tian-tian-hainanese-chicken-rice",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：MAXWELL FOOD CENTRE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_maxwell_1",
+   "name_zh": "真真粥品",
+   "name_en": "Zhen Zhen Porridge",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.280421,
+   "lng": 103.844747,
+   "area": "Maxwell Food Centre #01-54",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 8 分钟，经 Tanjong Pagar Road",
+    "minutes": 8,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 S$4 至 5",
+   "price_as_of": "2026-10-11",
+   "hours": "周三、周五至周日 5:30 至 14:00（周一、周二、周四休息）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "早餐时间去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "早上排队，卖完就收",
+   "signature": "鱼片粥",
+   "food_nearby": [
+    "同一熟食中心的天天海南鸡饭，招牌海南鸡饭",
+    "同一熟食中心的 75 中国街花生汤，招牌花生汤、红豆汤、豆爽"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/maxwell-food-centre-guide/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：MAXWELL FOOD CENTRE（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_maxwell_2",
+   "name_zh": "75 中国街花生汤",
+   "name_en": "75 China Street Peanuts Soup",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.280331,
+   "lng": 103.844837,
+   "area": "Maxwell Food Centre #01-57",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 8 分钟，经 Tanjong Pagar Road",
+    "minutes": 8,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 S$1.4 一碗（加汤圆 S$0.6）",
+   "price_as_of": "2026-10-11",
+   "hours": "周一至周六 7:30 至 14:00；周日休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "早上或午饭后",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "饭后甜品，排队不长",
+   "signature": "花生汤、红豆汤、豆爽",
+   "food_nearby": [
+    "同一熟食中心的天天海南鸡饭，招牌海南鸡饭",
+    "同一熟食中心的真真粥品，招牌鱼片粥"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/maxwell-food-centre-guide/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：MAXWELL FOOD CENTRE（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_maxwell_3",
+   "name_zh": "金华鱼头米粉",
+   "name_en": "Jin Hua Fish Head Bee Hoon",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.280241,
+   "lng": 103.844747,
+   "area": "Maxwell Food Centre #01-77",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 8 分钟，经 Tanjong Pagar Road",
+    "minutes": 8,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 S$5 起",
+   "price_as_of": "2026-10-11",
+   "hours": "周五至周三 11:30 至 19:30；周四休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "午饭时段排队",
+   "signature": "鱼片米粉",
+   "food_nearby": [
+    "同一熟食中心的天天海南鸡饭，招牌海南鸡饭",
+    "同一熟食中心的 75 中国街花生汤，招牌花生汤、红豆汤、豆爽"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/maxwell-food-centre-guide/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：MAXWELL FOOD CENTRE（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_amoy_0",
+   "name_zh": "A Noodle Story",
+   "name_en": "A Noodle Story",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.27934,
+   "lng": 103.846652,
+   "area": "Amoy Street Food Centre #01-39",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 8 分钟，经 Telok Ayer Street",
+    "minutes": 8,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 约 S$12.5（未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "周一至周五 10:00 至 20:00；周六日 10:00 至 16:00",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。上班族午饭排队很长，周末上午去最好",
+   "signature": "新加坡风味拉面（叉烧、云吞、炸虾）",
+   "food_nearby": [
+    "同一熟食中心的 J2 脆皮咖喱角，招牌咖喱角",
+    "同一熟食中心的和记肉粽，招牌肉粽"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://hawkerpedia.com.sg/amoy-street-food-centre/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：AMOY STREET FOOD CENTRE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_amoy_1",
+   "name_zh": "汉记鱼汤",
+   "name_en": "Han Kee Fish Soup",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.27943,
+   "lng": 103.846652,
+   "area": "Amoy Street Food Centre #02-129",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 8 分钟，经 Telok Ayer Street",
+    "minutes": 8,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 S$6 至 10",
+   "price_as_of": "2026-10-11",
+   "hours": "周一至周五 11:00 至 15:00；周末休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。11:30 前到，否则排很久；周末不开，适合工作日午饭",
+   "signature": "鱼片汤",
+   "food_nearby": [
+    "同一熟食中心的 A Noodle Story，招牌新加坡风味拉面（叉烧、云吞、炸虾）",
+    "同一熟食中心的 J2 脆皮咖喱角，招牌咖喱角"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://hawkerpedia.com.sg/amoy-street-food-centre/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：AMOY STREET FOOD CENTRE（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_amoy_2",
+   "name_zh": "J2 脆皮咖喱角",
+   "name_en": "J2 Famous Crispy Curry Puff",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.27934,
+   "lng": 103.846742,
+   "area": "Amoy Street Food Centre #01-21",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 8 分钟，经 Telok Ayer Street",
+    "minutes": 8,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 S$1.2 至 1.5 一个",
+   "price_as_of": "2026-10-11",
+   "hours": "周一至周五 8:00 至 15:00",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。早上去不用等",
+   "signature": "咖喱角",
+   "food_nearby": [
+    "同一熟食中心的 A Noodle Story，招牌新加坡风味拉面（叉烧、云吞、炸虾）",
+    "同一熟食中心的和记肉粽，招牌肉粽"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://hawkerpedia.com.sg/amoy-street-food-centre/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：AMOY STREET FOOD CENTRE（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_amoy_3",
+   "name_zh": "和记肉粽",
+   "name_en": "Hoo Kee Bak Chang",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.27925,
+   "lng": 103.846652,
+   "area": "Amoy Street Food Centre #01-08",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 8 分钟，经 Telok Ayer Street",
+    "minutes": 8,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 未核实",
+   "price_as_of": "2026-10-11",
+   "hours": "周二、周三、周五 11:00 至 15:00（周一、周四、周末休息）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。手工包，常在中午前卖完；周末不开，适合工作日",
+   "signature": "肉粽",
+   "food_nearby": [
+    "同一熟食中心的 A Noodle Story，招牌新加坡风味拉面（叉烧、云吞、炸虾）",
+    "同一熟食中心的 J2 脆皮咖喱角，招牌咖喱角"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://hawkerpedia.com.sg/amoy-street-food-centre/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：AMOY STREET FOOD CENTRE（同一熟食中心的摊位，图上略微错开）",
+   "budget": "未核实"
+  },
+  {
+   "id": "f_lau_pa_sat_0",
+   "name_zh": "老巴刹沙爹街",
+   "name_en": "Lau Pa Sat Satay Street",
+   "category": "美食",
+   "subcategory": "熟食中心",
+   "lat": 1.280594,
+   "lng": 103.850408,
+   "area": "Lau Pa Sat, 18 Raffles Quay",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 10 分钟，经 Robinson Road",
+    "minutes": 10,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 沙爹每串约 S$0.8 至 1.2（未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "沙爹街每晚约 19:00 起封路摆摊至深夜",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "19:00 刚开街时",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "周末晚上座位紧张",
+   "signature": "沙爹（烤肉串）、啤酒",
+   "food_nearby": [
+    "官网写老巴刹 24 小时开放（各摊位营业时间不同）；周五至周日 19:30 至 21:30 有现场乐队"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://laupasat.sg"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：LAU PA SAT",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_ccfc_0",
+   "name_zh": "联合本记煲仔饭",
+   "name_en": "Lian He Ben Ji Claypot",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.282275,
+   "lng": 103.843239,
+   "area": "Chinatown Complex Food Centre #02-197/198",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 12 分钟，经 Maxwell 到 Smith Street",
+    "minutes": 12,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 一人份约 S$15（什锦煲仔饭），两人加青菜约 S$20 至 35",
+   "price_as_of": "2026-10-11",
+   "hours": "周二、周三、周五至周日 15:00 至 21:00；周一、周四休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "傍晚 5 点半前",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。现煮要等 20 分钟以上，先点单再去买别的",
+   "signature": "煲仔饭（现点现煮约 20 分钟）",
+   "food_nearby": [
+    "同一熟食中心的安珍薄饼，招牌薄饼（春卷皮包菜）",
+    "同一熟食中心的中国拉面小笼包，招牌小笼包、炸酱面"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/lian-he-ben-ji-claypot-rice/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：CHINATOWN COMPLEX",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_ccfc_1",
+   "name_zh": "中国拉面小笼包",
+   "name_en": "Zhong Guo La Mian Xiao Long Bao",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.282365,
+   "lng": 103.843239,
+   "area": "Chinatown Complex Food Centre #02-135",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 12 分钟，经 Maxwell 到 Smith Street",
+    "minutes": 12,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 S$5 至 10（小笼包 10 个 S$8，炸酱面 S$4.5）",
+   "price_as_of": "2026-10-11",
+   "hours": "周三至周五 11:00 至 20:30；周六日 10:30 至 20:30；周一、周二休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "人多时先用一包纸巾占座再去点餐；吃完把托盘和餐具送回回收处",
+   "signature": "小笼包、炸酱面",
+   "food_nearby": [
+    "同一熟食中心的联合本记煲仔饭，招牌煲仔饭（现点现煮约 20 分钟）",
+    "同一熟食中心的安珍薄饼，招牌薄饼（春卷皮包菜）"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/chinatown-complex-food/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：CHINATOWN COMPLEX（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_ccfc_2",
+   "name_zh": "安珍薄饼",
+   "name_en": "Ann Chin Popiah",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.282275,
+   "lng": 103.843329,
+   "area": "Chinatown Complex Food Centre #02-112",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 12 分钟，经 Maxwell 到 Smith Street",
+    "minutes": 12,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 S$2.2 一条",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 8:00 至 20:00",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "人多时先用一包纸巾占座再去点餐；吃完把托盘和餐具送回回收处",
+   "signature": "薄饼（春卷皮包菜）",
+   "food_nearby": [
+    "同一熟食中心的联合本记煲仔饭，招牌煲仔饭（现点现煮约 20 分钟）",
+    "同一熟食中心的中国拉面小笼包，招牌小笼包、炸酱面"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/chinatown-complex-food/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：CHINATOWN COMPLEX（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_tpp_0",
+   "name_zh": "传统客家擂茶",
+   "name_en": "Traditional Hakka Rice",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.275155,
+   "lng": 103.842393,
+   "area": "Tanjong Pagar Plaza Market & Food Centre #02-21",
+   "from_home": {
+    "route": "就在 Tanjong Pagar 站旁，从站口步行约 5 分钟",
+    "minutes": 5,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 白饭 S$3.5，糙米饭 S$4，加配菜另算",
+   "price_as_of": "2026-10-11",
+   "hours": "9:00 至 14:00；周日休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "人多时先用一包纸巾占座再去点餐；吃完把托盘和餐具送回回收处",
+   "signature": "擂茶饭",
+   "food_nearby": [
+    "同一熟食中心的怡保仔虾面，招牌虾面",
+    "同一熟食中心的 Rolina 咖喱角，招牌海南咖喱角"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://kopitiam.com.sg/2026/04/03/15-must-try-hawker-stalls-at-tanjong-pagar-plaza-market-food-centre/",
+    "https://www.springtomorrow.com/traditional-hakka-rice/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：TANJONG PAGAR PLAZA",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_tpp_1",
+   "name_zh": "Rolina 咖喱角",
+   "name_en": "Rolina Traditional Hainanese Curry Puff",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.275245,
+   "lng": 103.842393,
+   "area": "Tanjong Pagar Plaza Market & Food Centre #02-15",
+   "from_home": {
+    "route": "就在 Tanjong Pagar 站旁，从站口步行约 5 分钟",
+    "minutes": 5,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 一个约 S$2（未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 7:30 至 14:00",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "早上",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "卖完就收，早去",
+   "signature": "海南咖喱角",
+   "food_nearby": [
+    "同一熟食中心的传统客家擂茶，招牌擂茶饭",
+    "同一熟食中心的怡保仔虾面，招牌虾面"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://kopitiam.com.sg/2026/04/03/15-must-try-hawker-stalls-at-tanjong-pagar-plaza-market-food-centre/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：TANJONG PAGAR PLAZA（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_tpp_2",
+   "name_zh": "怡保仔虾面",
+   "name_en": "Ipoh Zai Prawn Noodles",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.275155,
+   "lng": 103.842483,
+   "area": "Tanjong Pagar Plaza Market & Food Centre #02-34",
+   "from_home": {
+    "route": "就在 Tanjong Pagar 站旁，从站口步行约 5 分钟",
+    "minutes": 5,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 传统虾面 S$5，排骨虾面 S$6.5",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 8:00 至 13:00（eatbook 文章）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "早上",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "13:00 就收，最好上午去",
+   "signature": "虾面",
+   "food_nearby": [
+    "同一熟食中心的传统客家擂茶，招牌擂茶饭",
+    "同一熟食中心的 Rolina 咖喱角，招牌海南咖喱角"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/ipoh-zai-prawn-noodles/",
+    "https://kopitiam.com.sg/2026/04/03/15-must-try-hawker-stalls-at-tanjong-pagar-plaza-market-food-centre/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：TANJONG PAGAR PLAZA（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_hong_lim_0",
+   "name_zh": "欧南园炒粿条面",
+   "name_en": "Outram Park Fried Kway Teow Mee",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.285299,
+   "lng": 103.845824,
+   "area": "Hong Lim Market & Food Centre #02-17",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 20 分钟；或 Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Chinatown 站（NE4），步行约 5 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$4.5 至 6（未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "周一至周六 6:00 至 15:00；周日休息（eatbook 2022 年文章）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "早上 8 点前",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。高峰时段排队可到 90 分钟",
+   "signature": "炒粿条",
+   "food_nearby": [
+    "同一熟食中心的大华猪肉粿条面，招牌肉脞面",
+    "同一熟食中心的亚王咖喱鸡米粉面，招牌咖喱鸡米粉面"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/outram-park-fried-kway-teow-mee/",
+    "https://eatbook.sg/hong-lim-food/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：531A UPPER CROSS STREET",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_hong_lim_1",
+   "name_zh": "亚王咖喱鸡米粉面",
+   "name_en": "Ah Heng Curry Chicken Bee Hoon Mee",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.285389,
+   "lng": 103.845824,
+   "area": "Hong Lim Complex #02-58",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 20 分钟；或 Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Chinatown 站（NE4），步行约 5 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 中份 S$6.5（2022 年价格）",
+   "price_as_of": "2026-10-11",
+   "hours": "周五至周三 8:45 至 16:00；周四休息（eatbook 2022 年文章）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "午饭时段要排队",
+   "signature": "咖喱鸡米粉面",
+   "food_nearby": [
+    "同一熟食中心的欧南园炒粿条面，招牌炒粿条",
+    "同一熟食中心的大华猪肉粿条面，招牌肉脞面"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/ah-heng-curry-chicken-bee-hoon-mee/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：531A UPPER CROSS STREET（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_hong_lim_2",
+   "name_zh": "大华猪肉粿条面",
+   "name_en": "Tai Wah Pork Noodle",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.285299,
+   "lng": 103.845914,
+   "area": "Hong Lim Market & Food Centre #02-16",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 20 分钟；或 Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Chinatown 站（NE4），步行约 5 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$7 / 9 / 11",
+   "price_as_of": "2026-10-11",
+   "hours": "周二至周日 7:30 至 15:00；周一休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。午饭排队",
+   "signature": "肉脞面",
+   "food_nearby": [
+    "同一熟食中心的欧南园炒粿条面，招牌炒粿条",
+    "同一熟食中心的亚王咖喱鸡米粉面，招牌咖喱鸡米粉面"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/hong-lim-food/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：531A UPPER CROSS STREET（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_tb_market_0",
+   "name_zh": "剑波水粿",
+   "name_en": "Jian Bo Tiong Bahru Shui Kueh",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.284786,
+   "lng": 103.832182,
+   "area": "Tiong Bahru Market #02-05",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Tiong Bahru 站（EW17），步行约 10 分钟；或打车约 8 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 5 个 S$3.5",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 7:00 至 20:00",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "早餐",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。早上排队",
+   "signature": "水粿（菜脯米糕）",
+   "food_nearby": [
+    "可接着逛中峇鲁老组屋区"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/tiong-bahru-market/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：TIONG BAHRU MARKET",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_tb_market_1",
+   "name_zh": "178 卤面",
+   "name_en": "178 Lor Mee",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.284876,
+   "lng": 103.832182,
+   "area": "Tiong Bahru Market #01-15",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Tiong Bahru 站（EW17），步行约 10 分钟；或打车约 8 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$4.5 起",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 7:00 至 13:45",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "卖完就收，下午别去",
+   "signature": "卤面",
+   "food_nearby": [
+    "同一熟食中心的剑波水粿，招牌水粿（菜脯米糕）",
+    "同一熟食中心的鸿兴炒苏东虾面，招牌福建虾面"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/178-lor-mee/",
+    "https://eatbook.sg/tiong-bahru-market/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：TIONG BAHRU MARKET（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_tb_market_2",
+   "name_zh": "鸿兴炒苏东虾面",
+   "name_en": "Hong Heng Fried Sotong Prawn Mee",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.284786,
+   "lng": 103.832272,
+   "area": "Tiong Bahru Market #02-01",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Tiong Bahru 站（EW17），步行约 10 分钟；或打车约 8 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$5 / 6 / 7",
+   "price_as_of": "2026-10-11",
+   "hours": "周二至周六 10:30 至 14:30；周日、周一休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。现炒要等，周末只有周六开",
+   "signature": "福建虾面",
+   "food_nearby": [
+    "同一熟食中心的剑波水粿，招牌水粿（菜脯米糕）",
+    "同一熟食中心的 178 卤面，招牌卤面"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/tiong-bahru-market/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：TIONG BAHRU MARKET（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_oar_0",
+   "name_zh": "南星福建炒虾面",
+   "name_en": "Nam Sing Hokkien Fried Mee",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.308252,
+   "lng": 103.885809,
+   "area": "Old Airport Road Food Centre #01-32",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线到 Marina Bay 换环线到 Dakota 站（CC8），步行约 5 分钟",
+    "minutes": 35,
+    "cost_sgd": "约 S$1.72（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$5 至 8",
+   "price_as_of": "2026-10-11",
+   "hours": "10:00 至 18:00；周一休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。",
+   "signature": "福建炒虾面",
+   "food_nearby": [
+    "同一熟食中心的 To-Ricos 粿汁，招牌粿汁（卤味配米片汤）",
+    "同一熟食中心的老夫子炒粿条，招牌炒粿条"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://www.kopitiam.com.sg/2026/04/21/old-airport-road-food-centre-23-must-try-stalls/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：OLD AIRPORT ROAD FOOD CENTRE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_oar_1",
+   "name_zh": "老夫子炒粿条",
+   "name_en": "Lao Fu Zi Fried Kway Teow",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.308342,
+   "lng": 103.885809,
+   "area": "Old Airport Road Food Centre #01-12",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线到 Marina Bay 换环线到 Dakota 站（CC8），步行约 5 分钟",
+    "minutes": 35,
+    "cost_sgd": "约 S$1.72（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$5 至 8",
+   "price_as_of": "2026-10-11",
+   "hours": "10:00 至 22:00；周六休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。",
+   "signature": "炒粿条",
+   "food_nearby": [
+    "同一熟食中心的南星福建炒虾面，招牌福建炒虾面",
+    "同一熟食中心的 To-Ricos 粿汁，招牌粿汁（卤味配米片汤）"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://www.kopitiam.com.sg/2026/04/21/old-airport-road-food-centre-23-must-try-stalls/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：OLD AIRPORT ROAD FOOD CENTRE（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_oar_2",
+   "name_zh": "To-Ricos 粿汁",
+   "name_en": "To-Ricos Kway Chap",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.308252,
+   "lng": 103.885899,
+   "area": "Old Airport Road Food Centre #01-135",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线到 Marina Bay 换环线到 Dakota 站（CC8），步行约 5 分钟",
+    "minutes": 35,
+    "cost_sgd": "约 S$1.72（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$5 起",
+   "price_as_of": "2026-10-11",
+   "hours": "9:00 至 21:00；周一休息",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。",
+   "signature": "粿汁（卤味配米片汤）",
+   "food_nearby": [
+    "同一熟食中心的南星福建炒虾面，招牌福建炒虾面",
+    "同一熟食中心的老夫子炒粿条，招牌炒粿条"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://www.kopitiam.com.sg/2026/04/21/old-airport-road-food-centre-23-must-try-stalls/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：OLD AIRPORT ROAD FOOD CENTRE（同一熟食中心的摊位，图上略微错开）",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_newton_0",
+   "name_zh": "纽顿熟食中心",
+   "name_en": "Newton Food Centre",
+   "category": "美食",
+   "subcategory": "熟食中心",
+   "lat": 1.311916,
+   "lng": 103.83957,
+   "area": "Newton",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线到 Stevens 换滨海市区线到 Newton 站（DT11），步行约 3 分钟",
+    "minutes": 30,
+    "cost_sgd": "约 S$1.52（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 两人吃海鲜约 S$40 至 80（未核实）；辣椒螃蟹按时价，有摊位从 S$46 起；炒萝卜糕 S$5 起",
+   "price_as_of": "2026-10-11",
+   "hours": "各摊不同：合记蚝煎周三至周六 17:30 至 24:00；多数海鲜摊开到深夜",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "晚上 7 点后",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "海鲜摊会主动拉客，先问清价格和重量再点；Alliance Seafood 也在必比登榜上",
+   "signature": "辣椒螃蟹、烤魔鬼鱼、沙爹、蚝煎（合记蚝煎 2026 新入选必比登）",
+   "food_nearby": [
+    "约 1300 米外的阿拉丁印度香饭，招牌印度香饭（羊肉或鸡肉）",
+    "约 1500 米外的 Komala Vilas 素食，招牌印度薄饼（dosa）、素食套餐"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/newton-food-centre/",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：NEWTON FOOD CENTRE",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "f_tekka_0",
+   "name_zh": "阿拉丁印度香饭",
+   "name_en": "Allauddin's Briyani",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.306247,
+   "lng": 103.849956,
+   "area": "Tekka Centre #01-229",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Little India 站（NE7），出站即到",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.42（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 羊肉香饭套餐 S$7",
+   "price_as_of": "2026-10-11",
+   "hours": "未核实",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "午饭",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "午饭时段排队",
+   "signature": "印度香饭（羊肉或鸡肉）",
+   "food_nearby": [
+    "可接着逛小印度"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/tekka-centre/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：TEKKA CENTRE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_adam_0",
+   "name_zh": "Selera Rasa 椰浆饭",
+   "name_en": "Selera Rasa Nasi Lemak",
+   "category": "美食",
+   "subcategory": "小贩摊位",
+   "lat": 1.324083,
+   "lng": 103.814182,
+   "area": "Adam Road Food Centre #01-02",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线到 Stevens 换滨海市区线到 Botanic Gardens 站，步行约 10 分钟；或打车约 15 分钟",
+    "minutes": 35,
+    "cost_sgd": "约 S$1.78（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$4 至 7（招牌 Royal Flush 套餐 2018 年为 S$5.4）",
+   "price_as_of": "2026-10-11",
+   "hours": "周一至周四 7:00 至 17:00；周六日 7:00 至 15:00；周五休息（第三方汇总）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "周末早餐，去植物园前",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "周末早上排队",
+   "signature": "椰浆饭",
+   "food_nearby": [
+    "可去新加坡植物园走走"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/adam-road-food/",
+    "https://www.misslobang.com"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：ADAM ROAD FOOD CENTRE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_tai_hwa_0",
+   "name_zh": "大华猪肉粿条面（米其林一星）",
+   "name_en": "Hill Street Tai Hwa Pork Noodle",
+   "category": "美食",
+   "subcategory": "小贩摊位，米其林一星",
+   "lat": 1.305084,
+   "lng": 103.862599,
+   "area": "466 Crawford Lane #01-12",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Lavender 站（EW11），步行约 10 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.47（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 干捞面 S$8 起",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 9:00 至 20:30（eatbook 2026-04）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "常排 30 至 60 分钟，带把伞",
+   "signature": "肉脞面",
+   "food_nearby": [
+    "约 550 米外的 Zam Zam 印度煎饼，招牌Murtabak（印度煎饼包肉）",
+    "约 1200 米外的 Komala Vilas 素食，招牌印度薄饼（dosa）、素食套餐"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://guide.michelin.com/sg/en/article/michelin-guide-ceremony/full-list-michelin-guide-sg-2026",
+    "https://eatbook.sg/hill-street-tai-hwa-pork-noodle/"
+   ],
+   "check": "第三方汇总（米其林星级见官方榜单）",
+   "michelin": "米其林一星 2026",
+   "geo_source": "OneMap：466 CRAWFORD LANE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_song_fa_0",
+   "name_zh": "松发肉骨茶（New Bridge Road）",
+   "name_en": "Song Fa Bak Kut Teh",
+   "category": "美食",
+   "subcategory": "餐厅",
+   "lat": 1.288971,
+   "lng": 103.84776,
+   "area": "11 New Bridge Road",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Clarke Quay 站（NE5），出站即到；或打车约 8 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.28（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 约 S$9.5 起",
+   "price_as_of": "2026-10-11",
+   "hours": "约 9:00 至 21:30（未核实）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "米其林必比登推介（2026 年榜单）。周末午饭排队",
+   "signature": "潮州胡椒肉骨茶",
+   "food_nearby": [
+    "Clarke Quay 河边夜景就在旁边"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://songfa.com.sg",
+    "https://eatbook.sg/michelin-bib-gourmand-2026/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "必比登推介 2026",
+   "geo_source": "OneMap：11 NEW BRIDGE ROAD",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_katong_laksa_0",
+   "name_zh": "328 加东叻沙",
+   "name_en": "328 Katong Laksa",
+   "category": "美食",
+   "subcategory": "餐厅",
+   "lat": 1.305096,
+   "lng": 103.903211,
+   "area": "51 East Coast Road",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线到 Marine Parade 站（TE26），步行约 15 分钟",
+    "minutes": 35,
+    "cost_sgd": "约 S$1.84（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$6 至 7",
+   "price_as_of": "2026-10-11",
+   "hours": "10:00 至 22:00",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "饭点可能要等位，错开 12:00 至 13:30 和 18:30 至 20:00 会快很多",
+   "signature": "加东叻沙（短面条，用汤匙吃）",
+   "food_nearby": [
+    "可接着逛如切土生华人排屋"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://www.328katonglaksa.sg"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：51 EAST COAST ROAD",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_zamzam_0",
+   "name_zh": "Zam Zam 印度煎饼",
+   "name_en": "Zam Zam Restaurant",
+   "category": "美食",
+   "subcategory": "餐厅",
+   "lat": 1.302227,
+   "lng": 103.858443,
+   "area": "697 North Bridge Road",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Bugis 站（EW12），步行约 8 分钟",
+    "minutes": 20,
+    "cost_sgd": "约 S$1.40（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$10.8 至 12.4（一份煎饼）",
+   "price_as_of": "2026-10-11",
+   "hours": "7:00 至 23:00",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "一份够两人分",
+   "signature": "Murtabak（印度煎饼包肉）",
+   "food_nearby": [
+    "苏丹回教堂就在对面"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://zamzam.sg"
+   ],
+   "check": "官网已核",
+   "michelin": "",
+   "geo_source": "OneMap：697 NORTH BRIDGE ROAD",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_yakun_0",
+   "name_zh": "亚坤咖椰吐司（远东广场总店）",
+   "name_en": "Ya Kun Kaya Toast (Far East Square)",
+   "category": "美食",
+   "subcategory": "咖啡店",
+   "lat": 1.283383,
+   "lng": 103.848376,
+   "area": "18 China Street, Far East Square",
+   "from_home": {
+    "route": "从 Tanjong Pagar 站步行约 12 分钟到 Far East Square",
+    "minutes": 12,
+    "cost_sgd": "步行免费"
+   },
+   "cost": "人均 套餐约 S$6.2",
+   "price_as_of": "2026-10-11",
+   "hours": "周一至周五 7:30 至 19:00；周六 7:30 至 16:30；周日和公众假期 8:30 至 15:00",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "早餐",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "饭点可能要等位，错开 12:00 至 13:30 和 18:30 至 20:00 会快很多",
+   "signature": "咖椰吐司、半熟蛋、咖啡",
+   "food_nearby": [
+    "约 350 米外的大华猪肉粿条面，招牌肉脞面",
+    "约 350 米外的欧南园炒粿条面，招牌炒粿条"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://yakun.com"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：FAR EAST SQUARE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_chin_mee_chin_0",
+   "name_zh": "真美珍咖啡店",
+   "name_en": "Chin Mee Chin Confectionery",
+   "category": "美食",
+   "subcategory": "咖啡店",
+   "lat": 1.307147,
+   "lng": 103.907089,
+   "area": "204 East Coast Road",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线到 Marine Parade 站（TE26），步行约 10 分钟",
+    "minutes": 35,
+    "cost_sgd": "约 S$1.86（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 约 S$5 至 10（咖椰吐司 S$2.8，奶油角 S$2.8）",
+   "price_as_of": "2026-10-11",
+   "hours": "每天 8:00 至 16:00（15:45 最后点单，卖完即止）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "周末早餐",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "周末早上排队",
+   "signature": "咖椰吐司、奶油角",
+   "food_nearby": [
+    "约 500 米外的 328 加东叻沙，招牌加东叻沙（短面条，用汤匙吃）",
+    "约 1450 米外的芽笼士乃巴刹，招牌马来餐、巴东饭（Hajjah Mona Nasi Padang，#02-166）"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/chin-mee-chin/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：204 EAST COAST ROAD",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_komala_0",
+   "name_zh": "Komala Vilas 素食",
+   "name_en": "Komala Vilas",
+   "category": "美食",
+   "subcategory": "餐厅",
+   "lat": 1.306424,
+   "lng": 103.85195,
+   "area": "76 Serangoon Road",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Little India 站（NE7），步行约 3 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.43（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 S$3.5 至 6",
+   "price_as_of": "2026-10-11",
+   "hours": "7:00 至 22:30",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "饭点可能要等位，错开 12:00 至 13:30 和 18:30 至 20:00 会快很多",
+   "signature": "印度薄饼（dosa）、素食套餐",
+   "food_nearby": [
+    "约 200 米外的阿拉丁印度香饭，招牌印度香饭（羊肉或鸡肉）",
+    "约 850 米外的 Zam Zam 印度煎饼，招牌Murtabak（印度煎饼包肉）"
+   ],
+   "tags": [
+    "夜晚",
+    "雨天可去"
+   ],
+   "sources": [
+    "https://www.komalavilas.com.sg"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：76 SERANGOON ROAD",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_ecl_0",
+   "name_zh": "东海岸湖畔美食村",
+   "name_en": "East Coast Lagoon Food Village",
+   "category": "美食",
+   "subcategory": "熟食中心",
+   "lat": 1.307261,
+   "lng": 103.9348,
+   "area": "East Coast Park",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线到 Bayshore 站（TE29），步行约 20 分钟穿过东海岸公园；或打车约 20 分钟",
+    "minutes": 45,
+    "cost_sgd": "约 S$2.02（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 约 S$10 至 25（烧烤海鲜一份约 S$13 至 16）",
+   "price_as_of": "2026-10-11",
+   "hours": "各摊不同：Haron Satay 55 大致 14:00 或 15:00 开到 20:00 或 21:00；海鲜烧烤摊傍晚开到 23:30",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "傍晚骑完车",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "海边露天，雨天别去",
+   "signature": "沙爹、烤魔鬼鱼、萝卜糕",
+   "food_nearby": [
+    "可先在东海岸公园骑车"
+   ],
+   "tags": [
+    "夜晚"
+   ],
+   "sources": [
+    "https://eatbook.sg/east-coast-lagoon/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：EAST COAST LAGOON FOOD VILLAGE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_chomp_0",
+   "name_zh": "忠忠美食中心",
+   "name_en": "Chomp Chomp Food Centre",
+   "category": "美食",
+   "subcategory": "熟食中心",
+   "lat": 1.364233,
+   "lng": 103.866527,
+   "area": "Serangoon Gardens",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 Serangoon 站（NE12），换巴士或打车约 10 分钟；或从 Tanjong Pagar 站直接打车约 25 分钟",
+    "minutes": 50,
+    "cost_sgd": "约 S$2.00（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 约 S$10 至 20（未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "多数摊位 16:00 或 17:00 开到 24:00（eatbook 2018 年文章，未核实）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "傍晚 6 点前到",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "晚上 7 点到 9 点最挤",
+   "signature": "福建虾面、鸡翅、烤魔鬼鱼",
+   "food_nearby": [
+    "附近咖啡店与商场美食街（未核实具体店名）"
+   ],
+   "tags": [
+    "夜晚"
+   ],
+   "sources": [
+    "https://eatbook.sg/chomp-chomp-food/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：CHOMP CHOMP FOOD CENTRE",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_abc_0",
+   "name_zh": "ABC 红砖熟食中心",
+   "name_en": "ABC Brickworks Market & Food Centre",
+   "category": "美食",
+   "subcategory": "熟食中心",
+   "lat": 1.286883,
+   "lng": 103.808131,
+   "area": "6 Jalan Bukit Merah",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Redhill 站（EW18），步行约 15 分钟；或打车约 10 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.56（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 约 S$5 至 8（未核实）",
+   "price_as_of": "2026-10-11",
+   "hours": "2026 年 6 月装修后重开；各摊时间不同（未核实）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "避开 12:00 至 13:30 午饭高峰；周末早一点去",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "人多时先用一包纸巾占座再去点餐；吃完把托盘和餐具送回回收处",
+   "signature": "三巷肉脞面、华龄云吞面",
+   "food_nearby": [
+    "离南部山脊和虎豹别墅近"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://eatbook.sg/abc-brickworks/"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：6 JALAN BUKIT MERAH",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "f_geylang_serai_0",
+   "name_zh": "芽笼士乃巴刹",
+   "name_en": "Geylang Serai Market",
+   "category": "美食",
+   "subcategory": "熟食中心",
+   "lat": 1.316725,
+   "lng": 103.897977,
+   "area": "Geylang Serai",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Paya Lebar 站（EW8），步行约 5 分钟",
+    "minutes": 25,
+    "cost_sgd": "约 S$1.85（地铁公交成人卡费，按距离估算）"
+   },
+   "cost": "人均 一份饭加两三样菜约 S$10（第三方点评汇总）",
+   "price_as_of": "2026-10-11",
+   "hours": "熟食中心各摊不同（未核实）；Hajjah Mona 周三休息，其余日子约 8:00 至 19:00（第三方点评汇总）",
+   "duration": "30 分钟至 1 小时",
+   "best_time": "午饭",
+   "prep": [
+    "纸巾一包（小贩中心不提供，也可用来占座）",
+    "PayNow 或 NETS 扫码（多数小贩摊位能用）",
+    "少量新币现金（有的摊位或船只收现金）",
+    "水壶（公园和地铁站有饮水机）"
+   ],
+   "tips": "斋月期间外面有大型夜市",
+   "signature": "马来餐、巴东饭（Hajjah Mona Nasi Padang，#02-166）",
+   "food_nearby": [
+    "约 1400 米外的 328 加东叻沙，招牌加东叻沙（短面条，用汤匙吃）",
+    "约 1450 米外的真美珍咖啡店，招牌咖椰吐司、奶油角"
+   ],
+   "tags": [
+    "雨天可去"
+   ],
+   "sources": [
+    "https://www.foodadvisor.com.sg/restaurant/hajjah-mona-nasi-padang-geylang-serai-market-food-centre/",
+    "https://www.burpple.com/hajjah-mona-nasi-padang-geylang-serai"
+   ],
+   "check": "第三方汇总",
+   "michelin": "",
+   "geo_source": "OneMap：GEYLANG SERAI MARKET",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "o_jb",
+   "name_zh": "新山一日游",
+   "name_en": "Johor Bahru day trip",
+   "category": "周边游",
+   "subcategory": "马来西亚",
+   "lat": 1.458199,
+   "lng": 103.764906,
+   "area": "柔佛州新山",
+   "from_home": {
+    "route": "Shenton Way 站（TE19）坐汤申东海岸线直达 Woodlands 站（TE2），换巴士 911 或 856 到兀兰火车关口，坐 Shuttle Tebrau 火车 5 分钟到 JB Sentral；也可从 Woodlands 坐巴士 950 走陆路关口",
+    "minutes": 90,
+    "cost_sgd": "地铁约 S$2.4 加 Shuttle Tebrau 单程约 S$5（第三方汇总，KTMB 官网未读到）"
+   },
+   "transport": {
+    "mode": "地铁加 Shuttle Tebrau 火车（或过关巴士）",
+    "one_way": "约 1.5 小时（周末过关排队可能多 1 小时）",
+    "return_price": "往返约 S$15（地铁加火车；火车票价是第三方汇总，2026-10-11 查，KTMB 官网页面打不开，未核实）",
+    "days": "一天"
+   },
+   "cost": "过关免费；Shuttle Tebrau 单程约 S$5，从新山回程约 RM5（约 S$1.6）（第三方汇总，未核实）；乐高乐园成人一日票 RM205（约 S$64）（门市价）",
+   "price_as_of": "2026-10-11",
+   "hours": "Shuttle Tebrau 班次与时刻在 KTMB 官网查（未核实具体时刻）；City Square 商场约 10:00 至 22:00（未核实）",
+   "duration": "一整天",
+   "best_time": "周六早上 9 点前过关，避开周五晚和周日傍晚回程高峰",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "MDAC 入境卡（到达前第 3 天在移民局官网填，免费，每次入境都要填）",
+    "马币现金与能刷外币的卡",
+    "Shuttle Tebrau 车票（KTMB 官网提前买，周末常售罄）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "怎么过关：去新山市区走兀兰关口（Woodlands），可选 Shuttle Tebrau 火车（Woodlands Train Checkpoint 到 JB Sentral，5 分钟）、巴士 950，或 Causeway Link 的 CW 过关巴士（Queen Street 等地发车，班次票价未核实）；大士第二通道（Tuas）离 Tanjong Pagar 站远，CW 巴士从 Boon Lay 等西部车站发车（Causeway Link 官网首页有 CW6 Boon Lay 站搬迁公告），去新山西部和乐高乐园才考虑。陆路回新加坡可用 MyICA 二维码过关（见统一说明）。RTS Link 轻轨还没通车：LTA 2026-10-02 新闻稿原文 \"passenger service... is now expected to commence in February 2027\"，即预计 2027 年 2 月开通。Shuttle Tebrau 车票周末很抢手，提前买；新山的按摩、理发、吃饭比新加坡便宜不少",
+   "food_nearby": [
+    "JB Sentral 和 City Square 商场里的马来餐、肉骨茶",
+    "新山老街（Jalan Tan Hiok Nee）的咖啡店"
+   ],
+   "tags": [
+    "一整天"
+   ],
+   "sources": [
+    "https://online.ktmb.com.my",
+    "https://www.legoland.com.my/tickets-passes/",
+    "https://www.businterchange.net/johorbus/tips/221-going-to-johor-bahru-via-woodlands",
+    "https://www.causewaylink.com.my/",
+    "https://www.lta.gov.sg/content/ltagov/en/newsroom/2026/10/news-releases/grantors-informed-rts-link-service-targeted-feb-2027.html",
+    "https://www.kln.gov.my/web/chn_beijing/requirement_foreigner",
+    "https://my.china-embassy.gov.cn/eng/fwzc/lsyw/qz/202507/t20250714_11670217.htm",
+    "https://imigresen-online.imi.gov.my/mdac/main",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照免签：2025-07-17 起生效，每次停留不超过 30 天，任意 180 天内累计不超过 90 天。马来西亚驻华大使馆原文 \"maximum duration of each visit shall not exceed 30 days; cumulative ... not exceed 90 days within any 180 days\"（kln.gov.my，2025-08-11 发布，2026-10-11 读）。同页列的入境要求：护照有效期至少 6 个月、确认的回程票、住宿证明、资金证明，过关时可能被查。",
+    "arrival_card": "MDAC 数字入境卡：每次入境都要填（移民局原文 for every visit），在马来西亚移民局官网 imigresen-online.imi.gov.my/mdac/main 免费填，存好确认邮件。什么时候填，两份官方说法不一样：马来西亚驻华大使馆写 \"at least three (3) days before the arrival date\"（至少提前 3 天），移民局官网图示写 \"Complete and submit MDAC within 3 days before arrival\"（到达前 3 天内）。到达前第 3 天填，两种写法都满足。谁免填：移民局官网图示（2024-01-01 起）的豁免名单原文 \"CITIZENS OF SINGAPORE; DIPLOMATIC AND OFFICIAL PASSPORT HOLDERS; MALAYSIA PERMANENT RESIDENTS AND LONG-TERM PASS HOLDERS; GCI BRUNEI; BRUNEI MALAYSIA FREQUENT TRAVELER FACILITY; THAILAND BORDER PASS; INDONESIA PLB\"。新加坡的准证持有人不在名单里，陆路入境也没有单独豁免，所以要填。网上有「持新加坡准证可以免填」的说法，和官方名单不符，不要照做。",
+    "return_sg": "走陆路（兀兰或大士关口）回：ICA 原文写长期准证持有人（含 Work Pass）经兀兰、大士入境不用填 SG Arrival Card；WHP 没被点名，拿不准就也填一份（免费）。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "马币 MYR，S$1 约 RM3.19（2026-10-11 汇率，仅供估算）。商场和连锁店可刷卡；夜市、小摊、街边停车多收现金，建议在新加坡换好或到当地换钱店换。",
+    "data": "新加坡号码开漫游包，或在当地便利店买预付卡（买卡要登记护照）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：Shuttle Tebrau 票价是第三方汇总（KTMB 官网打不开）；RTS Link 开通时间 LTA 官方已核；乐高乐园票价沿用上一轮，本轮没重核",
+   "geo_source": "Nominatim：Johor Bahru",
+   "budget": "S$20 以内"
+  },
+  {
+   "id": "o_desaru",
+   "name_zh": "迪沙鲁海岸",
+   "name_en": "Desaru Coast",
+   "category": "周边游",
+   "subcategory": "马来西亚",
+   "lat": 1.536381,
+   "lng": 104.26233,
+   "area": "柔佛州哥打丁宜",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Tanah Merah 站，换巴士 35 到 Tanah Merah 渡轮码头，坐渡轮约 90 分钟到 Desaru Coast 码头；或坐直通巴士约 2.5 至 3 小时",
+    "minutes": 150,
+    "cost_sgd": "地铁巴士约 S$2.2 加渡轮单程 S$70，另加燃油附加费 S$12（Desaru Ferries 官网）"
+   },
+   "transport": {
+    "mode": "渡轮（周四至周日有班）或直通巴士",
+    "one_way": "渡轮约 1.5 小时；巴士约 2.5 至 3 小时",
+    "return_price": "渡轮往返 S$108，另加燃油附加费去程 S$12、回程 S$12 或 RM40，合计约 S$132（Desaru Ferries 官网，2026-10-11 读，附加费 2026-03-12 起收）；巴士单程约 S$26 至 30（第三方汇总，未核实）",
+    "days": "两天一夜"
+   },
+   "cost": "Adventure Waterpark 外国成人约 RM120（约 S$38） 至 RM145（约 S$45）；海滩免费",
+   "price_as_of": "2026-10-11",
+   "hours": "Adventure Waterpark 周三至周一 10:00 至 18:00，周二休息（马来西亚学校假期每天开）",
+   "duration": "两天一夜",
+   "best_time": "避开马来西亚学校假期与公众假期，水上乐园人少",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "防晒霜、帽子、墨镜",
+    "泳衣和换洗衣物",
+    "MDAC 入境卡（到达前第 3 天在移民局官网填，免费，每次入境都要填）",
+    "马币现金",
+    "渡轮票（提前在官网买，班次少）",
+    "到达新加坡前 3 天内填 SG Arrival Card（坐飞机或渡轮回来要填，ICA 官网免费）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "渡轮班表（Desaru Ferries 官网，2025-07-07 起）：周四至周日，Tanah Merah 渡轮码头 10:10 开，Desaru 17:30 开回；东北季风期可能改在 Tanjung Pengelih 靠岸，再坐巴士接驳。坐渡轮回新加坡要填 SG Arrival Card，坐巴士走陆路回来见统一说明；度假村集中，适合躺平",
+   "food_nearby": [
+    "度假村内餐厅",
+    "附近 Sungai Rengit 渔村海鲜（打车，未核实）"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.desarucoast.com",
+    "https://adventurewaterpark.com.my/",
+    "https://desaruferries.com/ferry-service/",
+    "https://holidaysg.com/blogs/tanah-merah-to-desaru-coast-ferry-guide",
+    "https://www.kln.gov.my/web/chn_beijing/requirement_foreigner",
+    "https://my.china-embassy.gov.cn/eng/fwzc/lsyw/qz/202507/t20250714_11670217.htm",
+    "https://imigresen-online.imi.gov.my/mdac/main",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照免签：2025-07-17 起生效，每次停留不超过 30 天，任意 180 天内累计不超过 90 天。马来西亚驻华大使馆原文 \"maximum duration of each visit shall not exceed 30 days; cumulative ... not exceed 90 days within any 180 days\"（kln.gov.my，2025-08-11 发布，2026-10-11 读）。同页列的入境要求：护照有效期至少 6 个月、确认的回程票、住宿证明、资金证明，过关时可能被查。",
+    "arrival_card": "MDAC 数字入境卡：每次入境都要填（移民局原文 for every visit），在马来西亚移民局官网 imigresen-online.imi.gov.my/mdac/main 免费填，存好确认邮件。什么时候填，两份官方说法不一样：马来西亚驻华大使馆写 \"at least three (3) days before the arrival date\"（至少提前 3 天），移民局官网图示写 \"Complete and submit MDAC within 3 days before arrival\"（到达前 3 天内）。到达前第 3 天填，两种写法都满足。谁免填：移民局官网图示（2024-01-01 起）的豁免名单原文 \"CITIZENS OF SINGAPORE; DIPLOMATIC AND OFFICIAL PASSPORT HOLDERS; MALAYSIA PERMANENT RESIDENTS AND LONG-TERM PASS HOLDERS; GCI BRUNEI; BRUNEI MALAYSIA FREQUENT TRAVELER FACILITY; THAILAND BORDER PASS; INDONESIA PLB\"。新加坡的准证持有人不在名单里，陆路入境也没有单独豁免，所以要填。网上有「持新加坡准证可以免填」的说法，和官方名单不符，不要照做。",
+    "return_sg": "坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。 改坐巴士走陆路回的：走陆路（兀兰或大士关口）回：ICA 原文写长期准证持有人（含 Work Pass）经兀兰、大士入境不用填 SG Arrival Card；WHP 没被点名，拿不准就也填一份（免费）。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "马币 MYR，S$1 约 RM3.19（2026-10-11 汇率，仅供估算）。商场和连锁店可刷卡；夜市、小摊、街边停车多收现金，建议在新加坡换好或到当地换钱店换。",
+    "data": "新加坡号码开漫游包，或在当地便利店买预付卡（买卡要登记护照）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：渡轮票价、燃油附加费、班表 Desaru Ferries 官网已核；巴士价第三方汇总；水上乐园票价沿用上一轮，本轮没重核",
+   "geo_source": "Nominatim：Desaru Coast, Johor",
+   "budget": "更贵"
+  },
+  {
+   "id": "o_malacca",
+   "name_zh": "马六甲",
+   "name_en": "Malacca (Melaka)",
+   "category": "周边游",
+   "subcategory": "马来西亚",
+   "lat": 2.196365,
+   "lng": 102.246889,
+   "area": "马六甲市",
+   "from_home": {
+    "route": "坐长途巴士：多从 Queen Street 或 Golden Mile 等车站出发，到 Melaka Sentral 再打车 15 分钟进老城；从 Tanjong Pagar 站打车到上车点约 10 分钟",
+    "minutes": 270,
+    "cost_sgd": "打车到上车点约 S$10 至 15（未核实）加巴士单程约 S$25 至 30"
+   },
+   "transport": {
+    "mode": "长途巴士",
+    "one_way": "约 4 至 5 小时（视过关排队）",
+    "return_price": "往返约 S$50 至 70（Easybook、redBus 订票网站的价，第三方，2026-10-11 查）",
+    "days": "两天一夜"
+   },
+   "cost": "老城、圣保罗山、A Famosa 古城门免费；鸡场街夜市免费入场",
+   "price_as_of": "2026-10-11",
+   "hours": "鸡场街（Jonker Street）夜市周五至周日约 18:00 至 24:00",
+   "duration": "两天一夜",
+   "best_time": "周五晚出发、周六逛夜市；白天中午很晒，早晚走",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "防晒霜、帽子、墨镜",
+    "水壶（公园和地铁站有饮水机）",
+    "防滑运动鞋",
+    "MDAC 入境卡（到达前第 3 天在移民局官网填，免费，每次入境都要填）",
+    "马币现金（夜市只收现金）",
+    "巴士票（提前在网上买）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "周末夜市人多，看好随身物品；坐巴士走陆路回新加坡不用填 SG Arrival Card；鸡粒饭、娘惹菜是招牌",
+   "food_nearby": [
+    "鸡场街一带鸡粒饭",
+    "娘惹菜馆",
+    "夜市小吃"
+   ],
+   "tags": [
+    "过夜"
+   ],
+   "sources": [
+    "https://gomelaka.com/news/jonker-street-night-market-melaka-2026",
+    "https://www.easybook.com/en-sg/bus/booking/singapore-to-malacca",
+    "https://www.redbus.sg/online-bus/golden-coach-singapore-to-malacca",
+    "https://www.kln.gov.my/web/chn_beijing/requirement_foreigner",
+    "https://my.china-embassy.gov.cn/eng/fwzc/lsyw/qz/202507/t20250714_11670217.htm",
+    "https://imigresen-online.imi.gov.my/mdac/main",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照免签：2025-07-17 起生效，每次停留不超过 30 天，任意 180 天内累计不超过 90 天。马来西亚驻华大使馆原文 \"maximum duration of each visit shall not exceed 30 days; cumulative ... not exceed 90 days within any 180 days\"（kln.gov.my，2025-08-11 发布，2026-10-11 读）。同页列的入境要求：护照有效期至少 6 个月、确认的回程票、住宿证明、资金证明，过关时可能被查。",
+    "arrival_card": "MDAC 数字入境卡：每次入境都要填（移民局原文 for every visit），在马来西亚移民局官网 imigresen-online.imi.gov.my/mdac/main 免费填，存好确认邮件。什么时候填，两份官方说法不一样：马来西亚驻华大使馆写 \"at least three (3) days before the arrival date\"（至少提前 3 天），移民局官网图示写 \"Complete and submit MDAC within 3 days before arrival\"（到达前 3 天内）。到达前第 3 天填，两种写法都满足。谁免填：移民局官网图示（2024-01-01 起）的豁免名单原文 \"CITIZENS OF SINGAPORE; DIPLOMATIC AND OFFICIAL PASSPORT HOLDERS; MALAYSIA PERMANENT RESIDENTS AND LONG-TERM PASS HOLDERS; GCI BRUNEI; BRUNEI MALAYSIA FREQUENT TRAVELER FACILITY; THAILAND BORDER PASS; INDONESIA PLB\"。新加坡的准证持有人不在名单里，陆路入境也没有单独豁免，所以要填。网上有「持新加坡准证可以免填」的说法，和官方名单不符，不要照做。",
+    "return_sg": "走陆路（兀兰或大士关口）回：ICA 原文写长期准证持有人（含 Work Pass）经兀兰、大士入境不用填 SG Arrival Card；WHP 没被点名，拿不准就也填一份（免费）。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "马币 MYR，S$1 约 RM3.19（2026-10-11 汇率，仅供估算）。商场和连锁店可刷卡；夜市、小摊、街边停车多收现金，建议在新加坡换好或到当地换钱店换。",
+    "data": "新加坡号码开漫游包，或在当地便利店买预付卡（买卡要登记护照）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：巴士价是订票网站的价（第三方）；夜市信息沿用上一轮",
+   "geo_source": "Nominatim：Jonker Street, Melaka",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "o_kl",
+   "name_zh": "吉隆坡",
+   "name_en": "Kuala Lumpur",
+   "category": "周边游",
+   "subcategory": "马来西亚",
+   "lat": 3.151696,
+   "lng": 101.694237,
+   "area": "吉隆坡",
+   "from_home": {
+    "route": "三种走法：坐飞机约 1 小时；坐长途巴士约 5 至 6 小时；或 Shuttle Tebrau 到新山 JB Sentral，再换 ETS 电动火车约 4 小时 20 分到 KL Sentral",
+    "minutes": 330,
+    "cost_sgd": "巴士单程约 S$20 至 60；或 Shuttle Tebrau S$5 加 ETS 单程 RM63（约 S$20） 起"
+   },
+   "transport": {
+    "mode": "长途巴士、ETS 火车（经新山）或飞机",
+    "one_way": "巴士约 5 至 6 小时；新山转 ETS 约 4 小时 20 分至 4 小时 40 分；飞机约 1 小时",
+    "return_price": "巴士往返约 S$40 至 120（Easybook 订票网站的价，第三方，2026-10-11 查）；ETS 票价见下面",
+    "days": "两天一夜"
+   },
+   "cost": "双子塔天桥外国成人约 RM98（约 S$31）（第三方汇总）；独立广场、茨厂街免费",
+   "price_as_of": "2026-10-11",
+   "hours": "双子塔开放时间在官网查（未核实）",
+   "duration": "两天一夜",
+   "best_time": "周五晚出发；双子塔要提前在官网订时段票",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "遮住肩膀和膝盖的衣服（宗教场所要求）",
+    "MDAC 入境卡（到达前第 3 天在移民局官网填，免费，每次入境都要填）",
+    "马币现金",
+    "车票或机票（提前订）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "ETS 新山到吉隆坡线 2025-12 开通，金级票 RM63（约 S$20） 起、白金级 RM82（约 S$26） 起；坐飞机回要填 SG Arrival Card，坐巴士或火车走陆路回不用；Grab 打车便宜好用",
+   "food_nearby": [
+    "茨厂街一带（Petaling Street）",
+    "阿罗街夜市（Jalan Alor）",
+    "印度街的香蕉叶饭"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://online.ktmb.com.my",
+    "https://thesmartlocal.com/read/electric-train-service-jb-kl/",
+    "https://www.petronastwintowers.com.my",
+    "https://thingstodokualalumpur.com/petronas-twin-towers/",
+    "https://www.easybook.com/en-sg/bus/booking/singapore-to-kualalumpur",
+    "https://www.kln.gov.my/web/chn_beijing/requirement_foreigner",
+    "https://my.china-embassy.gov.cn/eng/fwzc/lsyw/qz/202507/t20250714_11670217.htm",
+    "https://imigresen-online.imi.gov.my/mdac/main",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照免签：2025-07-17 起生效，每次停留不超过 30 天，任意 180 天内累计不超过 90 天。马来西亚驻华大使馆原文 \"maximum duration of each visit shall not exceed 30 days; cumulative ... not exceed 90 days within any 180 days\"（kln.gov.my，2025-08-11 发布，2026-10-11 读）。同页列的入境要求：护照有效期至少 6 个月、确认的回程票、住宿证明、资金证明，过关时可能被查。",
+    "arrival_card": "MDAC 数字入境卡：每次入境都要填（移民局原文 for every visit），在马来西亚移民局官网 imigresen-online.imi.gov.my/mdac/main 免费填，存好确认邮件。什么时候填，两份官方说法不一样：马来西亚驻华大使馆写 \"at least three (3) days before the arrival date\"（至少提前 3 天），移民局官网图示写 \"Complete and submit MDAC within 3 days before arrival\"（到达前 3 天内）。到达前第 3 天填，两种写法都满足。谁免填：移民局官网图示（2024-01-01 起）的豁免名单原文 \"CITIZENS OF SINGAPORE; DIPLOMATIC AND OFFICIAL PASSPORT HOLDERS; MALAYSIA PERMANENT RESIDENTS AND LONG-TERM PASS HOLDERS; GCI BRUNEI; BRUNEI MALAYSIA FREQUENT TRAVELER FACILITY; THAILAND BORDER PASS; INDONESIA PLB\"。新加坡的准证持有人不在名单里，陆路入境也没有单独豁免，所以要填。网上有「持新加坡准证可以免填」的说法，和官方名单不符，不要照做。",
+    "return_sg": "走陆路（兀兰或大士关口）回：ICA 原文写长期准证持有人（含 Work Pass）经兀兰、大士入境不用填 SG Arrival Card；WHP 没被点名，拿不准就也填一份（免费）。证件、自动通道和到期日见下面的「回新加坡统一说明」。 坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "马币 MYR，S$1 约 RM3.19（2026-10-11 汇率，仅供估算）。商场和连锁店可刷卡；夜市、小摊、街边停车多收现金，建议在新加坡换好或到当地换钱店换。",
+    "data": "新加坡号码开漫游包，或在当地便利店买预付卡（买卡要登记护照）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：巴士价是订票网站的价（第三方），ETS 票价第三方汇总（KTMB 官网打不开）；双子塔票价沿用上一轮（第三方汇总）",
+   "geo_source": "Nominatim：Kuala Lumpur",
+   "budget": "S$50 以内"
+  },
+  {
+   "id": "o_penang",
+   "name_zh": "槟城",
+   "name_en": "Penang (George Town)",
+   "category": "周边游",
+   "subcategory": "马来西亚",
+   "lat": 5.414162,
+   "lng": 100.328735,
+   "area": "槟城乔治市",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线往 Pasir Ris 方向到 Tanah Merah 站，换樟宜机场支线到 Changi Airport 站（CG2）；或打车约 25 分钟，飞槟城约 1 小时 15 分至 1 小时 40 分",
+    "minutes": 160,
+    "cost_sgd": "地铁约 S$2.2（按距离估算）；打车约 S$25 至 35（未核实）"
+   },
+   "transport": {
+    "mode": "飞机",
+    "one_way": "约 1 小时 15 分至 1 小时 40 分",
+    "return_price": "往返约 S$110 至 250（廉航经济舱，非节假日；第三方比价与旅游网站汇总，2026-10-11 查，只作参考；航司官网是动态订票页，读不到）",
+    "days": "两天一夜"
+   },
+   "cost": "老城壁画街免费；升旗山缆车外国成人往返 RM40（约 S$13）（普通通道），快速通道 RM80（约 S$25）",
+   "price_as_of": "2026-10-11",
+   "hours": "升旗山缆车开放时间在官网查（未核实）",
+   "duration": "两天一夜",
+   "best_time": "周末早上逛乔治市壁画，傍晚上升旗山看夜景",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "防晒霜、帽子、墨镜",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "MDAC 入境卡（到达前第 3 天在移民局官网填，免费，每次入境都要填）",
+    "马币现金（小贩多收现金）",
+    "到达新加坡前 3 天内填 SG Arrival Card（坐飞机或渡轮回来要填，ICA 官网免费）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "乔治市是世界遗产，骑共享单车或步行逛最好；坐飞机回新加坡要填 SG Arrival Card；炒粿条、福建面、煎蕊是必吃",
+   "food_nearby": [
+    "新关仔角（Gurney Drive）小贩中心",
+    "汕头街（Kimberley Street）夜市"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.penanghill.gov.my",
+    "https://littlebigreddot.com/7-cheapest-travel-destinations-from-singapore-in-2026-return-flights-from-s139/",
+    "https://www.traveloka.com/en-sg/explore/destination/30-affordable-weekend-getaway-destinations-within-4-hours-of-singapore-trp/496677",
+    "https://www.kln.gov.my/web/chn_beijing/requirement_foreigner",
+    "https://my.china-embassy.gov.cn/eng/fwzc/lsyw/qz/202507/t20250714_11670217.htm",
+    "https://imigresen-online.imi.gov.my/mdac/main",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照免签：2025-07-17 起生效，每次停留不超过 30 天，任意 180 天内累计不超过 90 天。马来西亚驻华大使馆原文 \"maximum duration of each visit shall not exceed 30 days; cumulative ... not exceed 90 days within any 180 days\"（kln.gov.my，2025-08-11 发布，2026-10-11 读）。同页列的入境要求：护照有效期至少 6 个月、确认的回程票、住宿证明、资金证明，过关时可能被查。",
+    "arrival_card": "MDAC 数字入境卡：每次入境都要填（移民局原文 for every visit），在马来西亚移民局官网 imigresen-online.imi.gov.my/mdac/main 免费填，存好确认邮件。什么时候填，两份官方说法不一样：马来西亚驻华大使馆写 \"at least three (3) days before the arrival date\"（至少提前 3 天），移民局官网图示写 \"Complete and submit MDAC within 3 days before arrival\"（到达前 3 天内）。到达前第 3 天填，两种写法都满足。谁免填：移民局官网图示（2024-01-01 起）的豁免名单原文 \"CITIZENS OF SINGAPORE; DIPLOMATIC AND OFFICIAL PASSPORT HOLDERS; MALAYSIA PERMANENT RESIDENTS AND LONG-TERM PASS HOLDERS; GCI BRUNEI; BRUNEI MALAYSIA FREQUENT TRAVELER FACILITY; THAILAND BORDER PASS; INDONESIA PLB\"。新加坡的准证持有人不在名单里，陆路入境也没有单独豁免，所以要填。网上有「持新加坡准证可以免填」的说法，和官方名单不符，不要照做。",
+    "return_sg": "坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "马币 MYR，S$1 约 RM3.19（2026-10-11 汇率，仅供估算）。商场和连锁店可刷卡；夜市、小摊、街边停车多收现金，建议在新加坡换好或到当地换钱店换。",
+    "data": "新加坡号码开漫游包，或在当地便利店买预付卡（买卡要登记护照）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：机票价是第三方比价与旅游网站汇总，只作参考；升旗山缆车票价沿用上一轮，本轮没重核",
+   "geo_source": "Nominatim：George Town, Penang",
+   "budget": "更贵"
+  },
+  {
+   "id": "o_batam",
+   "name_zh": "巴淡岛",
+   "name_en": "Batam",
+   "category": "周边游",
+   "subcategory": "印度尼西亚",
+   "lat": 1.131755,
+   "lng": 104.055429,
+   "area": "廖内群岛巴淡",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Outram Park 换东北线到 HarbourFront 站，去新的 HarbourFront 渡轮码头（Singapore Cruise Centre HarbourFront，5 HarbourFront Avenue；Majestic 公告 2026-07-15 起售票柜台搬到这里，旧 HarbourFront Centre 已关），坐渡轮约 1 小时到 Batam Centre；Majestic 也有 Tanah Merah 渡轮码头开往 Batam Centre 的船",
+    "minutes": 90,
+    "cost_sgd": "地铁约 S$1.4（按距离估算）加渡轮"
+   },
+   "transport": {
+    "mode": "渡轮",
+    "one_way": "约 1 小时",
+    "return_price": "往返约 S$76 至 90（第三方 littlebigreddot 2026-08-09 的价，含燃油附加费；船公司基础票价在订票系统里，官网读不到，未核实）。官方只读到附加费：Majestic 2026-03-12 起新加坡出发每程 S$6，印尼出发每程 65,000 印尼盾",
+    "days": "一天或两天一夜"
+   },
+   "cost": "按摩、海鲜比新加坡便宜，价格未核实；渡轮另有燃油附加费（见交通）",
+   "price_as_of": "2026-10-11",
+   "hours": "渡轮班次从早到晚，具体时刻在船公司官网查（未核实）",
+   "duration": "一整天，或两天一夜",
+   "best_time": "周六早班船去，周日下午回；避开新加坡公众假期",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "印尼电子落地签 B1（500,000 印尼盾，evisa.imigrasi.go.id 官网办）",
+    "All Indonesia 电子入境卡（到达前 3 天起可填，免费）",
+    "印尼盾现金（少量新币也常收，未核实）",
+    "渡轮票（船公司官网提前买）",
+    "到达新加坡前 3 天内填 SG Arrival Card（坐飞机或渡轮回来要填，ICA 官网免费）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "坐渡轮回新加坡要填 SG Arrival Card；只去一天也要办落地签；码头附近换钱比市区汇率差",
+   "food_nearby": [
+    "Batam Centre 码头附近的海鲜餐厅（Golden Prawn 一带，未核实）",
+    "Nagoya Hill 商场美食街"
+   ],
+   "tags": [
+    "一整天",
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.majesticfastferry.com.sg",
+    "https://batam.com/transport/singapore-harbourfront-batam-centre-ferry",
+    "https://littlebigreddot.com/batam-ferry-from-singapore-2026-new-harbourfront-terminal/",
+    "https://evisa.imigrasi.go.id",
+    "https://www.imigrasi.go.id/siaran_pers/mulai-1-oktober-deklarasi-kedatangan-penumpang-wajib-dilakukan-di-aplikasi-all-indonesia",
+    "https://allindonesia.imigrasi.go.id",
+    "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/F1",
+    "https://imigrasi.go.id/siaran_pers/2024/10/08/silmy-karim-tarik-wisatawan-asing-imigrasi-berikan-bebas-visa-kunjungan-ke-batam-bintan-dan-karimun-bagi-pemegang-pr-singapur",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照要签证。出发前在印尼移民局官网 evisa.imigrasi.go.id 办电子落地签 B1（选 CHINA、Tourism），官网原文 \"Stay Up to 30 days (extendable for another 30 days) Cost Rp500.000\"，即停留 30 天、可再延 30 天、500,000 印尼盾（约 S$36），单次入境，护照有效期至少 6 个月（2026-10-11 读）。到了口岸也能现场办落地签，在码头或机场的银行柜台交钱（移民局签证目录原文）；现场办的 B1 是否同价，本次没读到原文（未核实）。提前在官网办，落地少排队。",
+    "arrival_card": "All Indonesia 电子入境卡：印尼移民局 2025-10-01 新闻稿，所有机场和海港口岸 2025-10-01 起都要填，含海关与健康申报，免费，原文 \"dapat diisi sejak tiga hari sebelum kedatangan\"（到达前 3 天起可以填）。网页版 allindonesia.imigrasi.go.id，也有手机应用；没填只能走人工柜台，排队更久。",
+    "return_sg": "坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "印尼盾 IDR，S$1 约 13,960 印尼盾（2026-10-11 汇率，仅供估算）。大店可刷卡，小店和摩的收现金。",
+    "data": "新加坡号码开漫游包，或在当地买 Telkomsel 等预付卡（要护照登记）；具体套餐价格未核实。",
+    "note": "巴淡、民丹的两项特别政策（官方）：一，新加坡永久居民（PR）经巴淡、民丹、卡里摩入境免签，最多 4 天（印尼移民局 2024-10-08 新闻稿）；持工作准证或 WHP 的不是 PR，不适用。Bintan Resort Ferries 网页还写学生准证、PR 家属的长期探访准证也适用，这是船公司说法，移民局新闻稿只写了 PR。二，F1 落地签：只在廖内群岛的海港口岸给（Batam Centre、Sekupang、Sri Bintan Pura、Bandar Bentan Telani Lagoi 等码头），停留 7 天、不能延期、Rp250.000，只能在码头现场办（印尼移民局签证目录 F1 页原文）。F1 页写的是「落地签国家的人」可以办，中国在 evisa 官网的落地签国家里，所以中国护照能办是推论（未核实）；只去两三天的话比 B1 便宜一半，不确定就按 B1 提前办。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：基础票价第三方，燃油附加费与 HarbourFront 新码头 Majestic 官网公告已核",
+   "geo_source": "Nominatim：Batam Centre",
+   "budget": "更贵"
+  },
+  {
+   "id": "o_bintan",
+   "name_zh": "民丹岛",
+   "name_en": "Bintan (Lagoi)",
+   "category": "周边游",
+   "subcategory": "印度尼西亚",
+   "lat": 1.128365,
+   "lng": 104.322224,
+   "area": "廖内群岛民丹",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线到 Tanah Merah 站，换巴士 35 到 Tanah Merah 渡轮码头，坐 Bintan Resort Ferries 约 1 小时 10 分到 Bandar Bentan Telani，再坐度假村接驳车",
+    "minutes": 120,
+    "cost_sgd": "地铁巴士约 S$2.2 加渡轮"
+   },
+   "transport": {
+    "mode": "渡轮",
+    "one_way": "约 1 小时 10 分",
+    "return_price": "经济舱成人往返平日 S$100、高峰日 S$110、平日加高峰 S$105，单程 S$62；Emerald 舱往返 S$154 至 164（Bintan Resort Ferries 官网，2026-03-12 起的票价，原文写已含各项税费，2026-10-11 读）",
+    "days": "两天一夜"
+   },
+   "cost": "度假村价格差别大，住宿价未核实；海滩免费",
+   "price_as_of": "2026-10-11",
+   "hours": "渡轮每天数班，具体时刻在 Bintan Resort Ferries 官网查",
+   "duration": "两天一夜",
+   "best_time": "周六早班船去，周日下午回",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "防晒霜、帽子、墨镜",
+    "泳衣和换洗衣物",
+    "驱蚊液（有登革热风险）",
+    "印尼电子落地签 B1（500,000 印尼盾，evisa.imigrasi.go.id 官网办）",
+    "All Indonesia 电子入境卡（到达前 3 天起可填，免费）",
+    "印尼盾或新币现金",
+    "渡轮票和度假村提前订",
+    "到达新加坡前 3 天内填 SG Arrival Card（坐飞机或渡轮回来要填，ICA 官网免费）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "Lagoi 度假区的度假村多数收新币；坐渡轮回新加坡要填 SG Arrival Card；适合两天一夜躺海边",
+   "food_nearby": [
+    "度假村餐厅",
+    "Pasar Oleh Oleh 海鲜与小吃（Lagoi，未核实）"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.brf.com.sg/ticket-fares/",
+    "https://www.brf.com.sg/visa-information",
+    "https://evisa.imigrasi.go.id",
+    "https://www.imigrasi.go.id/siaran_pers/mulai-1-oktober-deklarasi-kedatangan-penumpang-wajib-dilakukan-di-aplikasi-all-indonesia",
+    "https://allindonesia.imigrasi.go.id",
+    "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/F1",
+    "https://imigrasi.go.id/siaran_pers/2024/10/08/silmy-karim-tarik-wisatawan-asing-imigrasi-berikan-bebas-visa-kunjungan-ke-batam-bintan-dan-karimun-bagi-pemegang-pr-singapur",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照要签证。出发前在印尼移民局官网 evisa.imigrasi.go.id 办电子落地签 B1（选 CHINA、Tourism），官网原文 \"Stay Up to 30 days (extendable for another 30 days) Cost Rp500.000\"，即停留 30 天、可再延 30 天、500,000 印尼盾（约 S$36），单次入境，护照有效期至少 6 个月（2026-10-11 读）。到了口岸也能现场办落地签，在码头或机场的银行柜台交钱（移民局签证目录原文）；现场办的 B1 是否同价，本次没读到原文（未核实）。提前在官网办，落地少排队。",
+    "arrival_card": "All Indonesia 电子入境卡：印尼移民局 2025-10-01 新闻稿，所有机场和海港口岸 2025-10-01 起都要填，含海关与健康申报，免费，原文 \"dapat diisi sejak tiga hari sebelum kedatangan\"（到达前 3 天起可以填）。网页版 allindonesia.imigrasi.go.id，也有手机应用；没填只能走人工柜台，排队更久。",
+    "return_sg": "坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "印尼盾 IDR，S$1 约 13,960 印尼盾（2026-10-11 汇率，仅供估算）。大店可刷卡，小店和摩的收现金。",
+    "data": "新加坡号码开漫游包，或在当地买 Telkomsel 等预付卡（要护照登记）；具体套餐价格未核实。",
+    "note": "巴淡、民丹的两项特别政策（官方）：一，新加坡永久居民（PR）经巴淡、民丹、卡里摩入境免签，最多 4 天（印尼移民局 2024-10-08 新闻稿）；持工作准证或 WHP 的不是 PR，不适用。Bintan Resort Ferries 网页还写学生准证、PR 家属的长期探访准证也适用，这是船公司说法，移民局新闻稿只写了 PR。二，F1 落地签：只在廖内群岛的海港口岸给（Batam Centre、Sekupang、Sri Bintan Pura、Bandar Bentan Telani Lagoi 等码头），停留 7 天、不能延期、Rp250.000，只能在码头现场办（印尼移民局签证目录 F1 页原文）。F1 页写的是「落地签国家的人」可以办，中国在 evisa 官网的落地签国家里，所以中国护照能办是推论（未核实）；只去两三天的话比 B1 便宜一半，不确定就按 B1 提前办。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：Bintan Resort Ferries 官网票价已核",
+   "geo_source": "Nominatim：Lagoi, Bintan",
+   "budget": "更贵"
+  },
+  {
+   "id": "o_tioman",
+   "name_zh": "刁曼岛",
+   "name_en": "Tioman Island",
+   "category": "周边游",
+   "subcategory": "马来西亚",
+   "lat": 2.806544,
+   "lng": 104.172156,
+   "area": "彭亨州",
+   "from_home": {
+    "route": "坐长途巴士约 3 至 4 小时到 Mersing 码头，再坐 Bluewater Express 渡轮约 1.5 至 2 小时上岛",
+    "minutes": 360,
+    "cost_sgd": "巴士单程约 S$30 至 50 加渡轮"
+   },
+   "transport": {
+    "mode": "长途巴士加渡轮",
+    "one_way": "约 6 至 7 小时（含等船）",
+    "return_price": "巴士往返约 S$60 至 100，加渡轮往返（非马来西亚成人单程 RM155（约 S$49））；都是第三方汇总，2026-10-11 查，Bluewater Express 官网连不上，未核实",
+    "days": "三天两夜"
+   },
+   "cost": "海洋公园费外国成人 RM30（约 S$9.4）；渡轮非马来西亚成人单程 RM155（约 S$49）",
+   "price_as_of": "2026-10-11",
+   "hours": "每年约 11 月 1 日至 2 月底东北季风期渡轮停航，大部分度假村关门；3 月起恢复",
+   "duration": "三天两夜（时间紧也可两天一夜）",
+   "best_time": "3 月至 10 月；11 月至 2 月停航，2026 年 11 月前要去就趁早",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "防晒霜、帽子、墨镜",
+    "泳衣和换洗衣物",
+    "驱蚊液（有登革热风险）",
+    "MDAC 入境卡（到达前第 3 天在移民局官网填，免费，每次入境都要填）",
+    "马币现金（岛上提款机少）",
+    "巴士、渡轮票与住宿提前订",
+    "漫游包或 eSIM"
+   ],
+   "tips": "季风停航期别去；浮潜看珊瑚很好，带防晒；坐巴士走陆路回新加坡不用填 SG Arrival Card",
+   "food_nearby": [
+    "岛上 ABC 村和 Salang 村的海边餐馆（未核实）"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.tiomanspeedboat.com/tioman-island-closed-dates",
+    "https://www.tiomandivebuddy.com/tioman-marine-park-fee-2026/",
+    "https://www.holidaygogogo.com/tioman-ferry-ticket-schedule-latest/",
+    "https://www.kln.gov.my/web/chn_beijing/requirement_foreigner",
+    "https://my.china-embassy.gov.cn/eng/fwzc/lsyw/qz/202507/t20250714_11670217.htm",
+    "https://imigresen-online.imi.gov.my/mdac/main",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照免签：2025-07-17 起生效，每次停留不超过 30 天，任意 180 天内累计不超过 90 天。马来西亚驻华大使馆原文 \"maximum duration of each visit shall not exceed 30 days; cumulative ... not exceed 90 days within any 180 days\"（kln.gov.my，2025-08-11 发布，2026-10-11 读）。同页列的入境要求：护照有效期至少 6 个月、确认的回程票、住宿证明、资金证明，过关时可能被查。",
+    "arrival_card": "MDAC 数字入境卡：每次入境都要填（移民局原文 for every visit），在马来西亚移民局官网 imigresen-online.imi.gov.my/mdac/main 免费填，存好确认邮件。什么时候填，两份官方说法不一样：马来西亚驻华大使馆写 \"at least three (3) days before the arrival date\"（至少提前 3 天），移民局官网图示写 \"Complete and submit MDAC within 3 days before arrival\"（到达前 3 天内）。到达前第 3 天填，两种写法都满足。谁免填：移民局官网图示（2024-01-01 起）的豁免名单原文 \"CITIZENS OF SINGAPORE; DIPLOMATIC AND OFFICIAL PASSPORT HOLDERS; MALAYSIA PERMANENT RESIDENTS AND LONG-TERM PASS HOLDERS; GCI BRUNEI; BRUNEI MALAYSIA FREQUENT TRAVELER FACILITY; THAILAND BORDER PASS; INDONESIA PLB\"。新加坡的准证持有人不在名单里，陆路入境也没有单独豁免，所以要填。网上有「持新加坡准证可以免填」的说法，和官方名单不符，不要照做。",
+    "return_sg": "走陆路（兀兰或大士关口）回：ICA 原文写长期准证持有人（含 Work Pass）经兀兰、大士入境不用填 SG Arrival Card；WHP 没被点名，拿不准就也填一份（免费）。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "马币 MYR，S$1 约 RM3.19（2026-10-11 汇率，仅供估算）。商场和连锁店可刷卡；夜市、小摊、街边停车多收现金，建议在新加坡换好或到当地换钱店换。",
+    "data": "新加坡号码开漫游包，或在当地便利店买预付卡（买卡要登记护照）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：巴士与渡轮价第三方汇总（Bluewater Express 官网连不上）；海洋公园费沿用上一轮",
+   "note": "季风期（约 11 月至 2 月）停航",
+   "geo_source": "Nominatim：Pulau Tioman",
+   "budget": "更贵"
+  },
+  {
+   "id": "o_phuket",
+   "name_zh": "普吉岛",
+   "name_en": "Phuket",
+   "category": "周边游",
+   "subcategory": "泰国",
+   "lat": 7.88479,
+   "lng": 98.38915,
+   "area": "普吉府",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线往 Pasir Ris 方向到 Tanah Merah 站，换樟宜机场支线到 Changi Airport 站（CG2）；或打车约 25 分钟，飞普吉约 1 小时 50 分",
+    "minutes": 160,
+    "cost_sgd": "地铁约 S$2.2（按距离估算）；打车约 S$25 至 35（未核实）"
+   },
+   "transport": {
+    "mode": "飞机",
+    "one_way": "约 1 小时 50 分",
+    "return_price": "往返约 S$139 至 280（廉航经济舱，非节假日；第三方比价与旅游网站汇总，2026-10-11 查，只作参考；航司官网是动态订票页，读不到）",
+    "days": "三天两夜"
+   },
+   "cost": "皮皮岛等国家公园外国成人 400 泰铢（约 S$15）（现金）",
+   "price_as_of": "2026-10-11",
+   "hours": "出海一日游多早上 8 点前接人，具体看行程（未核实）",
+   "duration": "三天两夜",
+   "best_time": "11 月至次年 4 月旱季浪小；5 月至 10 月西南季风，出海可能取消",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "防晒霜、帽子、墨镜",
+    "泳衣和换洗衣物",
+    "TDAC 入境卡（到达前 3 天内在移民局官网填，免费）",
+    "泰铢现金（国家公园费只收现金）",
+    "到达新加坡前 3 天内填 SG Arrival Card（坐飞机或渡轮回来要填，ICA 官网免费）",
+    "漫游包或 eSIM",
+    "旅行保险（建议）"
+   ],
+   "tips": "出海团选正规公司；坐飞机回新加坡要填 SG Arrival Card；Grab 和 Bolt 比街边出租便宜",
+   "food_nearby": [
+    "普吉老城的泰南菜",
+    "芭东海滩夜市"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://simbaseatrips.com/blog/phuket/national-park-fees-in-phuket-what-you-need-to-know/",
+    "https://littlebigreddot.com/7-cheapest-travel-destinations-from-singapore-in-2026-return-flights-from-s139/",
+    "https://www.traveloka.com/en-sg/explore/destination/30-affordable-weekend-getaway-destinations-within-4-hours-of-singapore-trp/496677",
+    "https://thaiembbeij.org/th/news/updateofvisaexemption/",
+    "https://thaiembbeij.org/th/news/thailandchinafreevisa/",
+    "https://tdac.immigration.go.th/manual/en/faq.html",
+    "https://tdac.immigration.go.th",
+    "https://kualalumpur.thaiembassy.org/en/content/official-announcement-tdac-new-entry-requirement-f",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照免签，每次停留最长 30 天。泰国驻华大使馆 2026-09-02 公告（09-14 更新）：2026-09-15 起取消 60 天免签，中国普通护照按两国互免签证协定入境，\"单次停留期最长不超过30天\"，要延期须向泰国移民局申请。同一使馆 2024 年的协定注意事项：2024-03-01 生效，每次不超过 30 天，任意 180 天内累计不超过 90 天，护照有效期应超过 6 个月。网上还流传 60 天免签的旧说法，已经作废。",
+    "arrival_card": "TDAC 数字入境卡：泰国移民局官方 FAQ 原文要在 \"within 3 days in advance of arriving in Thailand (including the date of arrival)\" 填，即到达前 3 天内（含到达当天）；每次入境都要填新的，空路、陆路、海路都要填，儿童也要填，官方不收费（tdac.immigration.go.th）。2025-05-01 起替代纸质入境卡（泰国驻吉隆坡大使馆公告，只在搜索结果里看到，原页未打开）。网上有收费代填网站，不要用。",
+    "return_sg": "坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "泰铢 THB，S$1 约 26.21 泰铢（2026-10-11 汇率，仅供估算）。街边小吃、嘟嘟车、国家公园费多收现金；商场可刷卡。",
+    "data": "落地机场可买游客 SIM 或在出发前买 eSIM（要护照登记）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：机票价是第三方比价与旅游网站汇总，只作参考；国家公园费沿用上一轮",
+   "geo_source": "Nominatim：Mueang Phuket, Phuket",
+   "budget": "更贵"
+  },
+  {
+   "id": "o_bangkok",
+   "name_zh": "曼谷",
+   "name_en": "Bangkok",
+   "category": "周边游",
+   "subcategory": "泰国",
+   "lat": 13.752494,
+   "lng": 100.493509,
+   "area": "曼谷",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线往 Pasir Ris 方向到 Tanah Merah 站，换樟宜机场支线到 Changi Airport 站（CG2）；或打车约 25 分钟，飞曼谷约 2 小时 30 分",
+    "minutes": 160,
+    "cost_sgd": "地铁约 S$2.2（按距离估算）；打车约 S$25 至 35（未核实）"
+   },
+   "transport": {
+    "mode": "飞机",
+    "one_way": "约 2 小时 30 分",
+    "return_price": "往返约 S$120 至 250（廉航经济舱，非节假日；第三方比价与旅游网站汇总，2026-10-11 查，只作参考；航司官网是动态订票页，读不到）",
+    "days": "三天两夜"
+   },
+   "cost": "大皇宫外国游客 500 泰铢（约 S$19）",
+   "price_as_of": "2026-10-11",
+   "hours": "大皇宫每天 8:30 至 15:30（15:30 停止售票）",
+   "duration": "三天两夜",
+   "best_time": "大皇宫早上开门就去，避开中午暴晒和团客",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "防晒霜、帽子、墨镜",
+    "遮住肩膀和膝盖的衣服（宗教场所要求）",
+    "TDAC 入境卡（到达前 3 天内在移民局官网填，免费）",
+    "泰铢现金",
+    "到达新加坡前 3 天内填 SG Arrival Card（坐飞机或渡轮回来要填，ICA 官网免费）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "进大皇宫和寺庙要遮住肩膀和膝盖；BTS、MRT 地铁加 Grab 出行最省事；坐飞机回新加坡要填 SG Arrival Card",
+   "food_nearby": [
+    "唐人街耀华力路夜市小吃",
+    "水门市场附近的海南鸡饭"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.royalgrandpalace.th/en/buy-ticket",
+    "https://littlebigreddot.com/7-cheapest-travel-destinations-from-singapore-in-2026-return-flights-from-s139/",
+    "https://www.traveloka.com/en-sg/explore/destination/30-affordable-weekend-getaway-destinations-within-4-hours-of-singapore-trp/496677",
+    "https://thaiembbeij.org/th/news/updateofvisaexemption/",
+    "https://thaiembbeij.org/th/news/thailandchinafreevisa/",
+    "https://tdac.immigration.go.th/manual/en/faq.html",
+    "https://tdac.immigration.go.th",
+    "https://kualalumpur.thaiembassy.org/en/content/official-announcement-tdac-new-entry-requirement-f",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照免签，每次停留最长 30 天。泰国驻华大使馆 2026-09-02 公告（09-14 更新）：2026-09-15 起取消 60 天免签，中国普通护照按两国互免签证协定入境，\"单次停留期最长不超过30天\"，要延期须向泰国移民局申请。同一使馆 2024 年的协定注意事项：2024-03-01 生效，每次不超过 30 天，任意 180 天内累计不超过 90 天，护照有效期应超过 6 个月。网上还流传 60 天免签的旧说法，已经作废。",
+    "arrival_card": "TDAC 数字入境卡：泰国移民局官方 FAQ 原文要在 \"within 3 days in advance of arriving in Thailand (including the date of arrival)\" 填，即到达前 3 天内（含到达当天）；每次入境都要填新的，空路、陆路、海路都要填，儿童也要填，官方不收费（tdac.immigration.go.th）。2025-05-01 起替代纸质入境卡（泰国驻吉隆坡大使馆公告，只在搜索结果里看到，原页未打开）。网上有收费代填网站，不要用。",
+    "return_sg": "坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "泰铢 THB，S$1 约 26.21 泰铢（2026-10-11 汇率，仅供估算）。街边小吃、嘟嘟车、国家公园费多收现金；商场可刷卡。",
+    "data": "落地机场可买游客 SIM 或在出发前买 eSIM（要护照登记）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：机票价是第三方比价与旅游网站汇总，只作参考；大皇宫票价与时间是上一轮读的官网",
+   "geo_source": "Nominatim：Bangkok",
+   "budget": "更贵"
+  },
+  {
+   "id": "o_bali",
+   "name_zh": "巴厘岛",
+   "name_en": "Bali (Ubud)",
+   "category": "周边游",
+   "subcategory": "印度尼西亚",
+   "lat": -8.517019,
+   "lng": 115.255051,
+   "area": "巴厘岛乌布",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线往 Pasir Ris 方向到 Tanah Merah 站，换樟宜机场支线到 Changi Airport 站（CG2）；或打车约 25 分钟，飞巴厘岛约 2 小时 40 分，再打车约 1.5 小时到乌布",
+    "minutes": 230,
+    "cost_sgd": "地铁约 S$2.2（按距离估算）；打车约 S$25 至 35（未核实）"
+   },
+   "transport": {
+    "mode": "飞机",
+    "one_way": "约 2 小时 40 分",
+    "return_price": "往返约 S$220 至 350（廉航经济舱，非节假日；第三方比价与旅游网站汇总，2026-10-11 查，只作参考；航司官网是动态订票页，读不到）",
+    "days": "三天两夜到四天三夜"
+   },
+   "cost": "乌布圣猴森林外国成人 80,000 印尼盾（约 S$5.7）（2024 年价）；巴厘岛游客税 150,000 印尼盾（约 S$11）",
+   "price_as_of": "2026-10-11",
+   "hours": "圣猴森林每天 9:00 至 18:00，最后入场 17:00",
+   "duration": "三天两夜到四天三夜",
+   "best_time": "4 月至 10 月旱季；巴厘岛静居日（Nyepi）全岛停摆，查好日期别撞上",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "防晒霜、帽子、墨镜",
+    "驱蚊液（有登革热风险）",
+    "遮住肩膀和膝盖的衣服（宗教场所要求）",
+    "印尼电子落地签 B1（500,000 印尼盾，evisa.imigrasi.go.id 官网办）",
+    "All Indonesia 电子入境卡（到达前 3 天起可填，免费）",
+    "巴厘岛游客税（官网 lovebali 预付，150,000 印尼盾）",
+    "印尼盾现金",
+    "到达新加坡前 3 天内填 SG Arrival Card（坐飞机或渡轮回来要填，ICA 官网免费）",
+    "漫游包或 eSIM",
+    "旅行保险（建议）"
+   ],
+   "tips": "游客税在官网 lovebali.baliprov.go.id 交，别在非官方网站付；猴子会抢眼镜和手机；坐飞机回新加坡要填 SG Arrival Card",
+   "food_nearby": [
+    "乌布市场一带的脏鸭餐（Bebek）",
+    "巴厘烤猪饭（Babi Guling）"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://monkeyforestubud.com/visit/",
+    "https://lovebali.baliprov.go.id",
+    "https://littlebigreddot.com/7-cheapest-travel-destinations-from-singapore-in-2026-return-flights-from-s139/",
+    "https://www.traveloka.com/en-sg/explore/destination/30-affordable-weekend-getaway-destinations-within-4-hours-of-singapore-trp/496677",
+    "https://evisa.imigrasi.go.id",
+    "https://www.imigrasi.go.id/siaran_pers/mulai-1-oktober-deklarasi-kedatangan-penumpang-wajib-dilakukan-di-aplikasi-all-indonesia",
+    "https://allindonesia.imigrasi.go.id",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照要签证。出发前在印尼移民局官网 evisa.imigrasi.go.id 办电子落地签 B1（选 CHINA、Tourism），官网原文 \"Stay Up to 30 days (extendable for another 30 days) Cost Rp500.000\"，即停留 30 天、可再延 30 天、500,000 印尼盾（约 S$36），单次入境，护照有效期至少 6 个月（2026-10-11 读）。到了口岸也能现场办落地签，在码头或机场的银行柜台交钱（移民局签证目录原文）；现场办的 B1 是否同价，本次没读到原文（未核实）。提前在官网办，落地少排队。",
+    "arrival_card": "All Indonesia 电子入境卡：印尼移民局 2025-10-01 新闻稿，所有机场和海港口岸 2025-10-01 起都要填，含海关与健康申报，免费，原文 \"dapat diisi sejak tiga hari sebelum kedatangan\"（到达前 3 天起可以填）。网页版 allindonesia.imigrasi.go.id，也有手机应用；没填只能走人工柜台，排队更久。 巴厘岛另收游客税 150,000 印尼盾（官方：lovebali.baliprov.go.id）。",
+    "return_sg": "坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "印尼盾 IDR，S$1 约 13,960 印尼盾（2026-10-11 汇率，仅供估算）。大店可刷卡，小店和摩的收现金。",
+    "data": "新加坡号码开漫游包，或在当地买 Telkomsel 等预付卡（要护照登记）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：机票价是第三方比价与旅游网站汇总，只作参考；圣猴森林票价（2024 年价）、开放时间和游客税金额沿用上一轮，本轮没重核",
+   "geo_source": "Nominatim：Ubud, Bali",
+   "budget": "更贵"
+  },
+  {
+   "id": "o_langkawi",
+   "name_zh": "兰卡威",
+   "name_en": "Langkawi",
+   "category": "周边游",
+   "subcategory": "马来西亚",
+   "lat": 6.291336,
+   "lng": 99.72894,
+   "area": "吉打州兰卡威",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线往 Pasir Ris 方向到 Tanah Merah 站，换樟宜机场支线到 Changi Airport 站（CG2）；或打车约 25 分钟，飞兰卡威约 1 小时 30 分至 1 小时 45 分",
+    "minutes": 160,
+    "cost_sgd": "地铁约 S$2.2（按距离估算）；打车约 S$25 至 35（未核实）"
+   },
+   "transport": {
+    "mode": "飞机",
+    "one_way": "约 1 小时 30 分至 1 小时 45 分",
+    "return_price": "往返约 S$110 至 250（廉航经济舱，非节假日；第三方比价与旅游网站汇总，2026-10-11 查，只作参考；航司官网是动态订票页，读不到）",
+    "days": "三天两夜"
+   },
+   "cost": "缆车 SkyCab 基础票 RM85（约 S$27），含天空之桥 RM89（约 S$28）（第三方汇总）；岛上免税",
+   "price_as_of": "2026-10-11",
+   "hours": "缆车开放时间在官网查（未核实）",
+   "duration": "三天两夜",
+   "best_time": "11 月至次年 4 月旱季；缆车遇大风暂停",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "防晒霜、帽子、墨镜",
+    "泳衣和换洗衣物",
+    "MDAC 入境卡（到达前第 3 天在移民局官网填，免费，每次入境都要填）",
+    "马币现金",
+    "到达新加坡前 3 天内填 SG Arrival Card（坐飞机或渡轮回来要填，ICA 官网免费）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "全岛免税，啤酒巧克力便宜；岛上要租车或打 Grab；坐飞机回新加坡要填 SG Arrival Card",
+   "food_nearby": [
+    "珍南海滩（Pantai Cenang）一带海鲜",
+    "夜市（每天换地方，未核实）"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://panoramalangkawi.com",
+    "https://littlebigreddot.com/7-cheapest-travel-destinations-from-singapore-in-2026-return-flights-from-s139/",
+    "https://www.traveloka.com/en-sg/explore/destination/30-affordable-weekend-getaway-destinations-within-4-hours-of-singapore-trp/496677",
+    "https://www.kln.gov.my/web/chn_beijing/requirement_foreigner",
+    "https://my.china-embassy.gov.cn/eng/fwzc/lsyw/qz/202507/t20250714_11670217.htm",
+    "https://imigresen-online.imi.gov.my/mdac/main",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照免签：2025-07-17 起生效，每次停留不超过 30 天，任意 180 天内累计不超过 90 天。马来西亚驻华大使馆原文 \"maximum duration of each visit shall not exceed 30 days; cumulative ... not exceed 90 days within any 180 days\"（kln.gov.my，2025-08-11 发布，2026-10-11 读）。同页列的入境要求：护照有效期至少 6 个月、确认的回程票、住宿证明、资金证明，过关时可能被查。",
+    "arrival_card": "MDAC 数字入境卡：每次入境都要填（移民局原文 for every visit），在马来西亚移民局官网 imigresen-online.imi.gov.my/mdac/main 免费填，存好确认邮件。什么时候填，两份官方说法不一样：马来西亚驻华大使馆写 \"at least three (3) days before the arrival date\"（至少提前 3 天），移民局官网图示写 \"Complete and submit MDAC within 3 days before arrival\"（到达前 3 天内）。到达前第 3 天填，两种写法都满足。谁免填：移民局官网图示（2024-01-01 起）的豁免名单原文 \"CITIZENS OF SINGAPORE; DIPLOMATIC AND OFFICIAL PASSPORT HOLDERS; MALAYSIA PERMANENT RESIDENTS AND LONG-TERM PASS HOLDERS; GCI BRUNEI; BRUNEI MALAYSIA FREQUENT TRAVELER FACILITY; THAILAND BORDER PASS; INDONESIA PLB\"。新加坡的准证持有人不在名单里，陆路入境也没有单独豁免，所以要填。网上有「持新加坡准证可以免填」的说法，和官方名单不符，不要照做。",
+    "return_sg": "坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "马币 MYR，S$1 约 RM3.19（2026-10-11 汇率，仅供估算）。商场和连锁店可刷卡；夜市、小摊、街边停车多收现金，建议在新加坡换好或到当地换钱店换。",
+    "data": "新加坡号码开漫游包，或在当地便利店买预付卡（买卡要登记护照）；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：机票价是第三方比价与旅游网站汇总，只作参考；缆车票价沿用上一轮（第三方汇总）",
+   "geo_source": "Nominatim：Pantai Cenang, Langkawi",
+   "budget": "更贵"
+  },
+  {
+   "id": "o_hcmc",
+   "name_zh": "胡志明市",
+   "name_en": "Ho Chi Minh City",
+   "category": "周边游",
+   "subcategory": "越南",
+   "lat": 10.773726,
+   "lng": 106.716601,
+   "area": "胡志明市",
+   "from_home": {
+    "route": "Tanjong Pagar 站坐东西线往 Pasir Ris 方向到 Tanah Merah 站，换樟宜机场支线到 Changi Airport 站（CG2）；或打车约 25 分钟，飞胡志明市约 2 小时 05 分",
+    "minutes": 160,
+    "cost_sgd": "地铁约 S$2.2（按距离估算）；打车约 S$25 至 35（未核实）"
+   },
+   "transport": {
+    "mode": "飞机",
+    "one_way": "约 2 小时 05 分",
+    "return_price": "往返约 S$128 至 300（廉航经济舱，非节假日；第三方比价与旅游网站汇总，2026-10-11 查，只作参考；航司官网是动态订票页，读不到）",
+    "days": "三天两夜"
+   },
+   "cost": "战争遗迹博物馆 40,000 越南盾（约 S$2.0）",
+   "price_as_of": "2026-10-11",
+   "hours": "战争遗迹博物馆 7:30 至 18:00",
+   "duration": "三天两夜",
+   "best_time": "12 月至次年 4 月旱季；下午常有雷阵雨",
+   "prep": [
+    "护照原件",
+    "新加坡准证实体卡（工作准证、Work Holiday Pass 等）；还没拿到卡时用 SGWorkPass 应用里的电子准证或在有效期内的通知信（MOM 原文）",
+    "折叠伞或轻便雨衣（午后常有雷阵雨）",
+    "越南电子签证（出发前在 evisa.gov.vn 办，单次 25 美元）",
+    "越南盾现金",
+    "到达新加坡前 3 天内填 SG Arrival Card（坐飞机或渡轮回来要填，ICA 官网免费）",
+    "漫游包或 eSIM"
+   ],
+   "tips": "电子签证要提前几个工作日办（审批时间未核实）；过马路摩托车多，匀速走别突然停；坐飞机回新加坡要填 SG Arrival Card",
+   "food_nearby": [
+    "粉（Pho）和越式法棍（Banh Mi）",
+    "滨城市场一带小吃"
+   ],
+   "tags": [
+    "过夜",
+    "需预约"
+   ],
+   "sources": [
+    "https://www.vietnamtourism.com/en/war-remnants-museum-ho-chi-minh-city-a-visitor-s-guide",
+    "https://littlebigreddot.com/7-cheapest-travel-destinations-from-singapore-in-2026-return-flights-from-s139/",
+    "https://www.traveloka.com/en-sg/explore/destination/30-affordable-weekend-getaway-destinations-within-4-hours-of-singapore-trp/496677",
+    "https://evisa.gov.vn",
+    "https://evisa.xuatnhapcanh.gov.vn",
+    "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/automated-lanes",
+    "https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/use-of-qr-code-for-immigration-clearance-at-woodlands-and-tuas-checkpoints/",
+    "https://www.mom.gov.sg/faq/work-holiday-pass/can-i-travel-out-of-singapore-while-on-the-work-holiday-programme",
+    "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-pass-holders-travel-in-and-out-of-singapore-if-they-have-not-received-the-pass-card",
+    "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+   ],
+   "entry": {
+    "visa": "中国普通护照要电子签证。越南出入境管理局官网 evisa.gov.vn 原文 \"Vietnam e-Visa is valid for maximum of 90 days, single or multiple entry\"，\"E-visa fee: Visa is valid once 25 USD / Visa is valid multiple times 50 USD\"，签证费不退，要从官网列的指定国际口岸出入境（2026-10-11 读）。旧网址 evisa.xuatnhapcanh.gov.vn 已公告 2024-11-11 起改用 evisa.gov.vn 和 thithucdientu.gov.vn。只走官网申请，第三方代办会加价。",
+    "arrival_card": "没有查到要提前在网上填的电子入境卡（未核实）；落地出示护照和电子签证打印件。",
+    "return_sg": "坐飞机或渡轮回：到达前 3 天内（含到达当天）在 ICA 官网或 MyICA 应用免费填 SG Arrival Card，选 Singapore citizens, Permanent Residents & Long-Term Pass Holders 一项（ICA 原文：走空路、海路的居民也要填）。不要在非官方网站付费代填。证件、自动通道和到期日见下面的「回新加坡统一说明」。",
+    "money": "越南盾 VND，S$1 约 20,191 越南盾（2026-10-11 汇率，仅供估算）。街边店多收现金，商场和连锁咖啡店可刷卡。",
+    "data": "机场可买 Viettel 等游客 SIM，或出发前买 eSIM；具体套餐价格未核实。"
+   },
+   "check": "入境与回新加坡：2026-10-11 读官方原文核过（原文与网址写在入境说明里；仍标「未核实」的小项是官方没写到的）；交通：机票价是第三方比价与旅游网站汇总，只作参考；博物馆票价与时间沿用上一轮",
+   "geo_source": "Nominatim：Ho Chi Minh City",
+   "budget": "更贵"
+  }
+ ],
+ "routes": [
+  {
+   "id": "r_food_walk",
+   "name": "Tanjong Pagar 附近半天美食走",
+   "duration": "半天（约 3 至 4 小时）",
+   "transport": "全程步行，每段不超过 1 km",
+   "total_cost": "约 S$15 至 25（鸡饭 S$5 至 8，傍晚沙爹按串算，见各条目）",
+   "stops": [
+    {
+     "id": "home",
+     "note": "从 Tanjong Pagar 站出发"
+    },
+    {
+     "id": "f_maxwell_0",
+     "note": "Maxwell 熟食中心吃天天海南鸡饭当早午饭，10:30 前去少排队"
+    },
+    {
+     "id": "a_city_gallery",
+     "note": "隔壁城市展览馆（免费），看全岛模型，顺便吹冷气"
+    },
+    {
+     "id": "a_chinatown",
+     "note": "牛车水逛佛牙寺、宝塔街"
+    },
+    {
+     "id": "f_lau_pa_sat_0",
+     "note": "傍晚走到老巴刹，沙爹街晚上封路开摊"
+    },
+    {
+     "id": "home",
+     "note": "步行约 10 分钟回到 Tanjong Pagar 站"
+    }
+   ]
+  },
+  {
+   "id": "r_ridges",
+   "name": "南部山脊徒步加拉柏多看日落",
+   "duration": "大半天（约 5 小时）",
+   "transport": "地铁到 HarbourFront，之后步行；回程从 Labrador Park 站坐环线",
+   "total_cost": "约 S$10 至 15（车费约 S$3，午饭 S$5 至 8）",
+   "stops": [
+    {
+     "id": "home",
+     "note": "从 Tanjong Pagar 站出发"
+    },
+    {
+     "name": "HarbourFront 站",
+     "lat": 1.265389,
+     "lng": 103.82153,
+     "note": "坐地铁到 HarbourFront（NE1/CC29），从 Marang Trail 上 Mount Faber"
+    },
+    {
+     "id": "a_southern_ridges",
+     "note": "走过亨德森波浪桥"
+    },
+    {
+     "id": "f_abc_0",
+     "note": "下山到 ABC 红砖熟食中心吃午饭"
+    },
+    {
+     "id": "a_labrador",
+     "note": "傍晚到拉柏多海边看日落，再从 Labrador Park 站回到 Tanjong Pagar 站"
+    }
+   ]
+  },
+  {
+   "id": "r_ubin",
+   "name": "乌敏岛骑车一日",
+   "duration": "一整天",
+   "transport": "地铁加巴士 2 路到樟宜村，坐小船上岛，岛上租自行车",
+   "total_cost": "约 S$28 至 40（车费往返约 S$4.4，小船往返 S$8，带车上船另加，租车 S$5 至 15，吃饭约 S$10）",
+   "stops": [
+    {
+     "id": "home",
+     "note": "从 Tanjong Pagar 站出发"
+    },
+    {
+     "name": "樟宜尾渡轮码头",
+     "lat": 1.390865,
+     "lng": 103.987584,
+     "note": "樟宜尾渡轮码头坐小船，凑满 12 人开，只收现金"
+    },
+    {
+     "id": "a_ubin",
+     "note": "租车骑到 Chek Jawa 湿地，天黑前回码头"
+    }
+   ]
+  },
+  {
+   "id": "r_sentosa",
+   "name": "圣淘沙海滩日",
+   "duration": "一整天",
+   "transport": "地铁到 HarbourFront，从 VivoCity 走木板道上岛（免费）或坐 Sentosa Express（S$4）",
+   "total_cost": "约 S$45 至 60（两次滑车 S$28 至 39，上午 10 至 12 点最便宜；吃喝约 S$15，车费约 S$3）",
+   "stops": [
+    {
+     "id": "home",
+     "note": "从 Tanjong Pagar 站出发"
+    },
+    {
+     "name": "HarbourFront 站与 VivoCity",
+     "lat": 1.265311,
+     "lng": 103.820557,
+     "note": "VivoCity 三楼走圣淘沙木板道"
+    },
+    {
+     "id": "a_luge",
+     "note": "上午先滑斜坡滑车，人少"
+    },
+    {
+     "id": "a_sentosa_beach",
+     "note": "下午去巴拉湾或西乐索海滩躺着，傍晚看日落"
+    }
+   ]
+  },
+  {
+   "id": "r_rain_museum",
+   "name": "雨天博物馆日",
+   "duration": "一整天（挑两家就是半天）",
+   "transport": "地铁到 Raffles Place 或 City Hall，各馆之间步行 10 分钟左右",
+   "total_cost": "约 S$45 至 55（三馆门票约 S$42，午饭约 S$6，车费约 S$3）",
+   "stops": [
+    {
+     "id": "home",
+     "note": "从 Tanjong Pagar 站出发"
+    },
+    {
+     "id": "a_acm",
+     "note": "亚洲文明博物馆，看黑石号沉船瓷器"
+    },
+    {
+     "id": "f_hong_lim_0",
+     "note": "芳林熟食中心吃炒粿条当午饭"
+    },
+    {
+     "id": "a_peranakan",
+     "note": "土生华人博物馆"
+    },
+    {
+     "id": "a_nms",
+     "note": "国家博物馆，看完坐地铁从 Bras Basah 回到 Tanjong Pagar 站"
+    }
+   ]
+  },
+  {
+   "id": "r_marina_night",
+   "name": "滨海湾傍晚到夜里",
+   "duration": "半天（16:30 至 21:30）",
+   "transport": "地铁到 Marina South Pier 或 Gardens by the Bay 站，之后沿海湾步行",
+   "total_cost": "约 S$15 至 25（户外花园和灯光秀免费，主要花在晚饭和车费）",
+   "stops": [
+    {
+     "id": "home",
+     "note": "从 Tanjong Pagar 站出发"
+    },
+    {
+     "id": "a_marina_barrage",
+     "note": "滨海堤坝屋顶草坪看日落"
+    },
+    {
+     "id": "a_gbtb",
+     "note": "滨海湾花园超级树，19:45 或 20:45 灯光秀（免费）"
+    },
+    {
+     "id": "a_merlion",
+     "note": "沿海湾走到鱼尾狮"
+    },
+    {
+     "id": "f_lau_pa_sat_0",
+     "note": "老巴刹沙爹街吃晚饭，再步行回到 Tanjong Pagar 站"
+    }
+   ]
+  },
+  {
+   "id": "r_jb",
+   "name": "新山一日游",
+   "duration": "一整天",
+   "transport": "汤申东海岸线到 Woodlands，换巴士到兀兰火车关口，坐 Shuttle Tebrau 到 JB Sentral",
+   "total_cost": "交通往返约 S$15；吃喝和按摩另算（新山一般比新加坡便宜，具体价未核实）",
+   "stops": [
+    {
+     "id": "home",
+     "note": "从 Tanjong Pagar 站出发"
+    },
+    {
+     "name": "Woodlands 站",
+     "lat": 1.436058,
+     "lng": 103.787939,
+     "note": "Shenton Way 站坐 TE 线直达 Woodlands（TE2）"
+    },
+    {
+     "name": "兀兰火车关口",
+     "lat": 1.445031,
+     "lng": 103.769993,
+     "note": "Shuttle Tebrau 发车站，过新加坡出境"
+    },
+    {
+     "id": "o_jb",
+     "note": "到 JB Sentral 过马来西亚入境（提前填 MDAC），逛 City Square 和老街"
+    }
+   ]
+  },
+  {
+   "id": "r_bintan",
+   "name": "民丹岛两天一夜",
+   "duration": "两天一夜",
+   "transport": "地铁加打车到 Tanah Merah 渡轮码头，坐渡轮约 1 小时 10 分到 Bandar Bentan Telani",
+   "total_cost": "约 S$140 起，不含住宿（渡轮往返约 S$100 至 105，落地签 50 万印尼盾约 S$36）",
+   "stops": [
+    {
+     "id": "home",
+     "note": "从 Tanjong Pagar 站出发"
+    },
+    {
+     "name": "Tanah Merah 渡轮码头",
+     "lat": 1.313991,
+     "lng": 103.988538,
+     "note": "提前 1 小时到码头办出境"
+    },
+    {
+     "id": "o_bintan",
+     "note": "住海边度假村，第二天下午坐船回来（回新加坡要填 SG Arrival Card）"
+    }
+   ]
+  }
+ ]
+}
